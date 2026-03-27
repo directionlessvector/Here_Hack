@@ -27,6 +27,8 @@ HTML_TEMPLATE = r"""
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
         *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
         :root {
@@ -298,12 +300,56 @@ HTML_TEMPLATE = r"""
         .footer { text-align:center; padding:2rem 0 1rem; color:var(--text-muted); font-size:0.72rem; }
         .footer a { color:var(--here-teal); text-decoration:none; }
 
+        /* ── Map ── */
+        .map-section {
+            background:var(--bg-card); border:1px solid var(--border);
+            border-radius:var(--radius); overflow:hidden; margin-bottom:0.85rem;
+            backdrop-filter:blur(12px);
+        }
+        .map-section .dc-header {
+            display:flex; align-items:center; justify-content:space-between;
+            padding:1rem 1.25rem; border-bottom:1px solid var(--border);
+        }
+        .map-section .dc-title { font-size:0.82rem; font-weight:700; display:flex; align-items:center; gap:0.4rem; }
+        #poiMap { height:380px; width:100%; background:var(--bg-secondary); }
+        .leaflet-container { background:var(--bg-secondary) !important; }
+
+        /* ── Mapillary Gallery ── */
+        .mapillary-gallery {
+            background:var(--bg-card); border:1px solid rgba(62,139,255,0.2);
+            border-radius:var(--radius); padding:1.25rem; margin-bottom:0.85rem;
+            backdrop-filter:blur(12px);
+        }
+        .mapillary-gallery .gallery-title {
+            font-size:0.82rem; font-weight:700; margin-bottom:1rem;
+            display:flex; align-items:center; gap:0.4rem;
+        }
+        .gallery-grid {
+            display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+            gap:0.75rem;
+        }
+        .gallery-grid img {
+            width:100%; height:220px; object-fit:cover;
+            border-radius:var(--radius-sm); border:1px solid var(--border);
+            transition:var(--transition); cursor:pointer;
+        }
+        .gallery-grid img:hover {
+            border-color:var(--here-teal); transform:scale(1.02);
+            box-shadow:0 4px 20px rgba(72,218,208,0.15);
+        }
+        .gallery-note {
+            margin-top:0.75rem; font-size:0.72rem; color:var(--text-muted);
+            font-style:italic; text-align:center;
+        }
+
         @media(max-width:768px){
             .form-grid{grid-template-columns:1fr}
             .breakdown-strip.cols-5,.breakdown-strip.cols-4{grid-template-columns:repeat(2,1fr)}
             .detail-grid{grid-template-columns:1fr}
             .header h1{font-size:1.6rem}
             .type-btn{padding:0.6rem 1.2rem; font-size:0.82rem}
+            #poiMap{height:260px}
+            .gallery-grid{grid-template-columns:1fr}
         }
     </style>
 </head>
@@ -386,7 +432,7 @@ HTML_TEMPLATE = r"""
             {name:'Starbucks', lat:'1.28967', lon:'103.85007'},
             {name:'McDonald\'s', lat:'1.30060', lon:'103.83760'},
             {name:'Soup Restaurant', lat:'1.34007', lon:'103.70656'},
-            {name:'Ya Kun Kaya Toast', lat:'1.28210', lon:'103.85050'},
+            {name:'Ya Kun Kaya Toast', lat:'1.30273', lon:'103.83495'},
             {name:'Zqwx Nonexistent Diner', lat:'1.35000', lon:'103.85000'},
         ]
     };
@@ -489,16 +535,15 @@ HTML_TEMPLATE = r"""
         const isFuel = data.input.place_type === 'fuel_station';
         const typeLabel = isFuel ? '⛽ Fuel Station' : '🍽️ Restaurant';
 
-        // Weights (with visual layer)
+        // Weights (with visual layer) - OSM set to 0.0 per user request
         const w = isFuel
-            ? {osm:0.25, acra:0.20, overture:0.17, spatial:0.13, brand:0.10, visual:0.15}
-            : {osm:0.28, acra:0.25, overture:0.20, brand:0.10, visual:0.17};
+            ? {osm:0.0, acra:0.45, overture:0.17, spatial:0.13, brand:0.10, visual:0.15}
+            : {osm:0.0, acra:0.53, overture:0.20, brand:0.10, visual:0.17};
 
         const visualConf = data.visual?.confidence || 0;
         const visualScore01 = visualConf / 100;
 
         let breakdownHtml = '';
-        breakdownHtml += bi('OSM', data.osm.score, w.osm);
         breakdownHtml += bi('ACRA', data.acra.score, w.acra);
         breakdownHtml += bi('Overture', data.overture.score, w.overture);
         if (isFuel) breakdownHtml += bi('Spatial', data.spatial?.road_proximity_score || 0, w.spatial);
@@ -520,7 +565,7 @@ HTML_TEMPLATE = r"""
             <div class="station-name">${typeLabel} · ${data.input.name} ${data.input.lat ? `(${data.input.lat}, ${data.input.lon})` : '(no coords)'}</div>
         </div>
 
-        <div class="breakdown-strip ${isFuel?'cols-5':'cols-4'}" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:0.6rem;margin-bottom:1.5rem;animation:fadeIn 0.4s ease forwards;animation-delay:.08s;opacity:0">
+        <div class="breakdown-strip ${isFuel?'cols-5':'cols-4'}" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:0.6rem;margin-bottom:1.5rem;animation:fadeIn 0.4s ease forwards;animation-delay:.08s;opacity:0">
             ${breakdownHtml}
         </div>
 
@@ -653,8 +698,32 @@ HTML_TEMPLATE = r"""
         </div>
         ` : ''}
 
+        <!-- Mapillary Street-Level Images (shown when score 50-80) -->
+        ${(data.final.score >= 50 && data.final.score <= 80 && data.visual?.image_urls?.length) ? `
+        <div class="mapillary-gallery fade-in" style="animation-delay:.36s">
+            <div class="gallery-title">📸 Street-Level Imagery (Mapillary)</div>
+            <div class="gallery-grid">
+                ${data.visual.image_urls.map(url =>
+                    `<img src="${url}" alt="Street view" loading="lazy" onclick="window.open('${url}','_blank')">`
+                ).join('')}
+            </div>
+            <div class="gallery-note">Street-level images used for visual validation. Click to enlarge.</div>
+        </div>
+        ` : ''}
+
+        <!-- Leaflet Map -->
+        ${data.input.lat ? `
+        <div class="map-section fade-in" style="animation-delay:.4s">
+            <div class="dc-header">
+                <span class="dc-title">🗺️ POI Location</span>
+                <span style="font-size:0.72rem;color:var(--text-muted);font-family:'JetBrains Mono',monospace">${data.input.lat}, ${data.input.lon}</span>
+            </div>
+            <div id="poiMap"></div>
+        </div>
+        ` : ''}
+
         <!-- JSON -->
-        <div class="json-panel fade-in" style="animation-delay:.3s">
+        <div class="json-panel fade-in" style="animation-delay:.45s">
             <div class="json-header" onclick="toggleJson(this)">
                 <span>📋 Raw JSON Response</span>
                 <span class="toggle-icon">▼</span>
@@ -666,6 +735,60 @@ HTML_TEMPLATE = r"""
 
         document.getElementById('results').innerHTML = html;
         document.getElementById('results').classList.add('active');
+
+        // Initialize Leaflet map if coordinates exist
+        if (data.input.lat && data.input.lon) {
+            setTimeout(() => {
+                const mapEl = document.getElementById('poiMap');
+                if (!mapEl) return;
+                const lat = parseFloat(data.input.lat);
+                const lon = parseFloat(data.input.lon);
+                const map = L.map('poiMap', {
+                    center: [lat, lon],
+                    zoom: 16,
+                    zoomControl: true,
+                    attributionControl: true
+                });
+                L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+                    subdomains: 'abcd',
+                    maxZoom: 19
+                }).addTo(map);
+
+                // Marker with custom styling
+                const markerColor = cls === 'confirmed' ? '#6DD400' : cls === 'likely' ? '#3E8BFF' : cls === 'uncertain' ? '#F5A623' : '#FF4D4F';
+                const markerIcon = L.divIcon({
+                    className: 'custom-marker',
+                    html: `<div style="width:28px;height:28px;border-radius:50%;background:${markerColor};border:3px solid #fff;box-shadow:0 2px 12px rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;font-size:12px">${isFuel ? '⛽' : '🍽️'}</div>`,
+                    iconSize: [28, 28],
+                    iconAnchor: [14, 14]
+                });
+                L.marker([lat, lon], {icon: markerIcon}).addTo(map)
+                    .bindPopup(`<div style="font-family:Inter,sans-serif;min-width:180px">
+                        <strong>${data.input.name}</strong><br>
+                        <span style="color:#888;font-size:12px">${typeLabel}</span><br>
+                        <hr style="margin:6px 0;border-color:#ddd">
+                        <b>Score: ${data.final.score}</b> — ${data.final.decision}<br>
+                        ${data.visual ? `Visual: ${data.visual.status} (${data.visual.confidence}%)` : ''}
+                    </div>`, {maxWidth: 250})
+                    .openPopup();
+
+                // Add nearby source markers if available
+                if (data.osm?.details?.lat) {
+                    L.circleMarker([data.osm.details.lat, data.osm.details.lon], {
+                        radius: 6, color: '#48DAD0', fillColor: '#48DAD0', fillOpacity: 0.7, weight: 2
+                    }).addTo(map).bindPopup(`<b>OSM:</b> ${data.osm.details.name || 'Match'}`);
+                }
+                if (data.overture?.details?.lat) {
+                    L.circleMarker([data.overture.details.lat, data.overture.details.lon], {
+                        radius: 6, color: '#3E8BFF', fillColor: '#3E8BFF', fillOpacity: 0.7, weight: 2
+                    }).addTo(map).bindPopup(`<b>Overture:</b> ${data.overture.details.name || 'Match'}`);
+                }
+
+                // Invalidate size after render
+                setTimeout(() => map.invalidateSize(), 200);
+            }, 100);
+        }
     }
 
     function toggleJson(el) { el.classList.toggle('open'); el.nextElementSibling.classList.toggle('open'); }

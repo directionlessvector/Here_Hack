@@ -1,0 +1,139 @@
+{
+  "title": "New OSM Entries - Missing from Map but Exist in Reality",
+  "total_tested": 6,
+  "missing_found": 3,
+  "entries": [
+    {
+      "name": "Esso West Coast",
+      "lat": 1.30498,
+      "lon": 103.76431,
+      "note": "Major Esso missing from OSM",
+      "validation_result": {
+        "final_score": 40.0,
+        "decision": "UNCERTAIN",
+        "osm": {
+          "score": 0.7,
+          "status": "PARTIAL MATCH"
+        },
+        "acra": {
+          "score": 0.0
+        },
+        "overture": {
+          "score": 1.0
+        }
+      },
+      "discrepancy": false,
+      "discrepancy_type": "MISSING_FROM_OSM"
+    },
+    {
+      "name": "Shell Select",
+      "lat": 1.49692,
+      "lon": 103.70047,
+      "note": "Shell Select missing from OSM",
+      "validation_result": {
+        "final_score": 63.0,
+        "decision": "LIKELY EXISTS",
+        "osm": {
+          "score": 0.3,
+          "status": "PARTIAL MATCH"
+        },
+        "acra": {
+          "score": 0.8
+        },
+        "overture": {
+          "score": 1.0
+        }
+      },
+      "discrepancy": false,
+      "discrepancy_type": "MISSING_FROM_OSM"
+    },
+    {
+      "name": "Esso Petrol Kiosk",
+      "lat": 1.31401,
+      "lon": 103.65585,
+      "note": "Esso missing from OSM",
+      "validation_result": {
+        "final_score": 40.0,
+        "decision": "UNCERTAIN",
+        "osm": {
+          "score": 0.7,
+          "status": "PARTIAL MATCH"
+        },
+        "acra": {
+          "score": 0.0
+        },
+        "overture": {
+          "score": 1.0
+        }
+      },
+      "discrepancy": false,
+      "discrepancy_type": "MISSING_FROM_OSM"
+    },
+    {
+      "name": "Ye Lai Xiang Teochew Porridge",
+      "lat": 1.28455,
+      "lon": 103.82109,
+      "note": "Popular porridge spot missing from OSM",
+      "validation_result": {
+        "final_score": 73.0,
+        "decision": "LIKELY EXISTS",
+        "osm": {
+          "score": 0.7,
+          "status": "PARTIAL MATCH"
+        },
+        "acra": {
+          "score": 1.0
+        },
+        "overture": {
+          "score": 1.0
+        }
+      },
+      "discrepancy": false,
+      "discrepancy_type": "MISSING_FROM_OSM"
+    },
+    {
+      "name": "MOMO Cha Cha",
+      "lat": 1.29094,
+      "lon": 103.817,
+      "note": "Cafe missing from OSM",
+      "validation_result": {
+        "final_score": 73.0,
+        "decision": "LIKELY EXISTS",
+        "osm": {
+          "score": 0.3,
+          "status": "PARTIAL MATCH"
+        },
+        "acra": {
+          "score": 1.0
+        },
+        "overture": {
+          "score": 1.0
+        }
+      },
+      "discrepancy": false,
+      "discrepancy_type": "MISSING_FROM_OSM"
+    },
+    {
+      "name": "Fat Cow",
+      "lat": 1.30276,
+      "lon": 103.82424,
+      "note": "High-end restaurant missing from OSM",
+      "validation_result": {
+        "final_score": 73.0,
+        "decision": "LIKELY EXISTS",
+        "osm": {
+          "score": 0.7,
+          "status": "PARTIAL MATCH"
+        },
+        "acra": {
+          "score": 1.0
+        },
+        "overture": {
+          "score": 1.0
+        }
+      },
+      "discrepancy": false,
+      "discrepancy_type": "MISSING_FROM_OSM"
+    }
+  ]
+}

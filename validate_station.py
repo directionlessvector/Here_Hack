@@ -73,9 +73,10 @@ RESTAURANT_CATEGORIES = {"restaurant", "cafe", "fast_food"}
 
 # ── Scoring weights ─────────────────────────────────────────────────────
 # With visual validation layer integrated
-FUEL_WEIGHTS = {"osm": 0.25, "acra": 0.20, "overture": 0.17, "spatial": 0.13, "brand": 0.10, "visual": 0.15}
+# OSM weight set to 0.0 per user request to prioritize Registry (ACRA) signals
+FUEL_WEIGHTS = {"osm": 0.0, "acra": 0.45, "overture": 0.17, "spatial": 0.13, "brand": 0.10, "visual": 0.15}
 # Restaurants skip spatial → redistribute weight
-RESTAURANT_WEIGHTS = {"osm": 0.28, "acra": 0.25, "overture": 0.20, "brand": 0.10, "visual": 0.17}
+RESTAURANT_WEIGHTS = {"osm": 0.0, "acra": 0.53, "overture": 0.20, "brand": 0.10, "visual": 0.17}
 
 CACHE_MAX_AGE = 7 * 24 * 60 * 60
 

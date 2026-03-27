@@ -1,0 +1,169 @@
+{
+  "title": "Stale OSM Entries - Closed Stations Still Listed",
+  "total_tested": 6,
+  "discrepancies_found": 4,
+  "entries": [
+    {
+      "name": "Caltex",
+      "lat": 1.3254067,
+      "lon": 103.8908172,
+      "closure_reason": "ACRA business closed at this postal code",
+      "acra_postal": "579707",
+      "validation_result": {
+        "final_score": 50.0,
+        "decision": "LIKELY EXISTS",
+        "osm": {
+          "score": 1.0,
+          "matched_name": "Caltex",
+          "note": "STALE - station is closed but OSM still lists it"
+        },
+        "acra": {
+          "score": 0.6
+        },
+        "overture": {
+          "score": 0.0
+        },
+        "brand": {
+          "score": 1.0
+        }
+      },
+      "discrepancy": true,
+      "discrepancy_type": "CLOSED_BUT_IN_OSM"
+    },
+    {
+      "name": "Shell Dunearn",
+      "lat": 1.3309239,
+      "lon": 103.7991009,
+      "closure_reason": "ACRA business closed at this postal code",
+      "acra_postal": "787124",
+      "validation_result": {
+        "final_score": 67.1,
+        "decision": "LIKELY EXISTS",
+        "osm": {
+          "score": 1.0,
+          "matched_name": "Esso Dunearn",
+          "note": "STALE - station is closed but OSM still lists it"
+        },
+        "acra": {
+          "score": 0.8
+        },
+        "overture": {
+          "score": 1.0
+        },
+        "brand": {
+          "score": 0.5
+        }
+      },
+      "discrepancy": true,
+      "discrepancy_type": "CLOSED_BUT_IN_OSM"
+    },
+    {
+      "name": "SPC",
+      "lat": 1.3232062,
+      "lon": 103.8193298,
+      "closure_reason": "ACRA business closed at this postal code",
+      "acra_postal": "368140",
+      "validation_result": {
+        "final_score": 50.0,
+        "decision": "LIKELY EXISTS",
+        "osm": {
+          "score": 1.0,
+          "matched_name": "SPC",
+          "note": "STALE - station is closed but OSM still lists it"
+        },
+        "acra": {
+          "score": 0.6
+        },
+        "overture": {
+          "score": 0.0
+        },
+        "brand": {
+          "score": 1.0
+        }
+      },
+      "discrepancy": true,
+      "discrepancy_type": "CLOSED_BUT_IN_OSM"
+    },
+    {
+      "name": "Caltex Dunearn Road",
+      "lat": 1.3238,
+      "lon": 103.8068,
+      "closure_reason": "Redevelopment of site",
+      "acra_postal": null,
+      "validation_result": {
+        "final_score": 53.9,
+        "decision": "LIKELY EXISTS",
+        "osm": {
+          "score": 0.3,
+          "matched_name": "Esso Dunearn",
+          "note": "Not found"
+        },
+        "acra": {
+          "score": 1.0
+        },
+        "overture": {
+          "score": 0.0
+        },
+        "brand": {
+          "score": 0.5
+        }
+      },
+      "discrepancy": false,
+      "discrepancy_type": "NOT_IN_OSM"
+    },
+    {
+      "name": "Shell Faber Drive",
+      "lat": 1.2943,
+      "lon": 103.771,
+      "closure_reason": "Land lease expired",
+      "acra_postal": null,
+      "validation_result": {
+        "final_score": 8.9,
+        "decision": "DOES NOT EXIST",
+        "osm": {
+          "score": 0.3,
+          "matched_name": "Shell Dunearn",
+          "note": "Not found"
+        },
+        "acra": {
+          "score": 0.0
+        },
+        "overture": {
+          "score": 0.0
+        },
+        "brand": {
+          "score": 0.5
+        }
+      },
+      "discrepancy": false,
+      "discrepancy_type": "NOT_IN_OSM"
+    },
+    {
+      "name": "Esso Pasir Panjang",
+      "lat": 1.276,
+      "lon": 103.791,
+      "closure_reason": "Closed for construction",
+      "acra_postal": null,
+      "validation_result": {
+        "final_score": 45.0,
+        "decision": "UNCERTAIN",
+        "osm": {
+          "score": 0.7,
+          "matched_name": "SPC Pasir Panjang",
+          "note": "STALE - station is closed but OSM still lists it"
+        },
+        "acra": {
+          "score": 0.6
+        },
+        "overture": {
+          "score": 0.0
+        },
+        "brand": {
+          "score": 0.5
+        }
+      },
+      "discrepancy": true,
+      "discrepancy_type": "CLOSED_BUT_IN_OSM"
+    }
+  ]
+}

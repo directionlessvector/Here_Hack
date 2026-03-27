@@ -541,6 +541,7 @@ def validate_poi_visual(input_payload: dict) -> dict:
             "confidence": confidence,
             "visual_evidence_score": visual_score,
             "images_analysed": num_images,
+            "image_urls": [m.get("thumb_url") for m in image_meta if m.get("thumb_url")],
             "signals": {
                 "open_sign": ocr_results["open_sign"],
                 "closed_sign": ocr_results["closed_sign"],

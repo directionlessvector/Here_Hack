@@ -1,0 +1,2122 @@
+{
+  "overture_restaurants_total": 31382,
+  "yakun_overture_matches": [
+    {
+      "name": "Sakanadonya Kunimaru",
+      "lat": 1.28154,
+      "lon": 103.84826,
+      "status": "open"
+    },
+    {
+      "name": "Ya Kun Cafe",
+      "lat": 1.38513,
+      "lon": 103.74504,
+      "status": "open"
+    },
+    {
+      "name": "Ya Kun Family Cafe",
+      "lat": 1.30493,
+      "lon": 103.83296,
+      "status": "open"
+    },
+    {
+      "name": "Ya Kun Family Cafe",
+      "lat": 1.33426,
+      "lon": 103.96269,
+      "status": "open"
+    },
+    {
+      "name": "Ya Kun Family Cafe (Jurong Point)",
+      "lat": 1.33978,
+      "lon": 103.7065,
+      "status": "open"
+    },
+    {
+      "name": "Ya Kun FAMILY CAFE 亞坤",
+      "lat": 1.30146,
+      "lon": 103.86168,
+      "status": "open"
+    },
+    {
+      "name": "Ya Kun Kaya Toast",
+      "lat": 1.29823,
+      "lon": 103.77453,
+      "status": "open"
+    },
+    {
+      "name": "Ya Kun Kaya Toast",
+      "lat": 1.29275,
+      "lon": 103.83191,
+      "status": "open"
+    },
+    {
+      "name": "Ya Kun Kaya Toast",
+      "lat": 1.30273,
+      "lon": 103.83495,
+      "status": "open"
+    },
+    {
+      "name": "Ya Kun Kaya Toast",
+      "lat": 1.26466,
+      "lon": 103.82002,
+      "status": "open"
+    }
+  ],
+  "near_yakun_coords": [
+    {
+      "name": "Seetha Eatery",
+      "lat": 1.28233,
+      "lon": 103.85045,
+      "status": "open",
+      "dist_m": 26.1
+    },
+    {
+      "name": "Kei Kaisendon",
+      "lat": 1.28235,
+      "lon": 103.85063,
+      "status": "open",
+      "dist_m": 31.2
+    },
+    {
+      "name": "Kappou",
+      "lat": 1.2818,
+      "lon": 103.85066,
+      "status": "open",
+      "dist_m": 37.3
+    },
+    {
+      "name": "The Quadrant at Cecil",
+      "lat": 1.28244,
+      "lon": 103.85051,
+      "status": "open",
+      "dist_m": 37.6
+    },
+    {
+      "name": "Burger King Corporation",
+      "lat": 1.28173,
+      "lon": 103.85058,
+      "status": "open",
+      "dist_m": 42.2
+    },
+    {
+      "name": "The Powder Room",
+      "lat": 1.2825,
+      "lon": 103.85049,
+      "status": "open",
+      "dist_m": 43.9
+    },
+    {
+      "name": "A & M",
+      "lat": 1.28218,
+      "lon": 103.85089,
+      "status": "open",
+      "dist_m": 44.5
+    },
+    {
+      "name": "Rakki Cafe and Munchies",
+      "lat": 1.2817,
+      "lon": 103.85058,
+      "status": "open",
+      "dist_m": 45.0
+    },
+    {
+      "name": "Artemis Grill and Sky Bar",
+      "lat": 1.28183,
+      "lon": 103.85019,
+      "status": "open",
+      "dist_m": 45.3
+    },
+    {
+      "name": "Wijono Enterprise",
+      "lat": 1.28212,
+      "lon": 103.85091,
+      "status": "open",
+      "dist_m": 45.4
+    }
+  ],
+  "closed_but_in_osm_fuel": [],
+  "closed_but_in_osm_restaurants": [],
+  "open_not_in_osm_fuel": [
+    {
+      "name": "Singapore Petrol Chemical Cmplex",
+      "lat": 1.26567,
+      "lon": 103.72323,
+      "status": "open"
+    },
+    {
+      "name": "Esso West Coast Petrol Station",
+      "lat": 1.30498,
+      "lon": 103.76431,
+      "status": "open"
+    },
+    {
+      "name": "Sri Damai Gemilang Sdn Bhd",
+      "lat": 1.49903,
+      "lon": 103.6376,
+      "status": "open"
+    },
+    {
+      "name": "Shell Select",
+      "lat": 1.49692,
+      "lon": 103.70047,
+      "status": "open"
+    },
+    {
+      "name": "Cahaya Matahari Sdn Bhd",
+      "lat": 1.48704,
+      "lon": 103.76047,
+      "status": "open"
+    },
+    {
+      "name": "Gassan Diamonds",
+      "lat": 1.35634,
+      "lon": 103.98619,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.48941,
+      "lon": 103.88168,
+      "status": "open"
+    },
+    {
+      "name": "Watt Wah Petroleum Haulage",
+      "lat": 1.3157,
+      "lon": 103.67615,
+      "status": "open"
+    },
+    {
+      "name": "Ge Oil and Gas",
+      "lat": 1.30775,
+      "lon": 103.6778,
+      "status": "open"
+    },
+    {
+      "name": "Esso Petrol Kiosk",
+      "lat": 1.31401,
+      "lon": 103.65585,
+      "status": "open"
+    },
+    {
+      "name": "Pegasus Engineering Accident Reporting and Repair Center",
+      "lat": 1.32962,
+      "lon": 103.6881,
+      "status": "open"
+    },
+    {
+      "name": "Shell Eastern Petroleum",
+      "lat": 1.27075,
+      "lon": 103.61936,
+      "status": "open"
+    },
+    {
+      "name": "Brgy.Inoman Pozorrubio,Pangasinan",
+      "lat": 1.35158,
+      "lon": 103.6988,
+      "status": "open"
+    },
+    {
+      "name": "MAN Diesel & Turbo Singapore Pte. Ltd.",
+      "lat": 1.32653,
+      "lon": 103.65523,
+      "status": "open"
+    },
+    {
+      "name": "Mega Gas Enterprise Pte Ltd",
+      "lat": 1.32572,
+      "lon": 103.69391,
+      "status": "open"
+    },
+    {
+      "name": "Nagas Metal Pte Ltd",
+      "lat": 1.33444,
+      "lon": 103.69921,
+      "status": "open"
+    },
+    {
+      "name": "Asia Industrial Gases Pte Ltd",
+      "lat": 1.30362,
+      "lon": 103.66566,
+      "status": "open"
+    },
+    {
+      "name": "Dieselmech Holdings",
+      "lat": 1.31811,
+      "lon": 103.62908,
+      "status": "open"
+    },
+    {
+      "name": "Marine Diesel Pte Ltd",
+      "lat": 1.33001,
+      "lon": 103.65152,
+      "status": "open"
+    },
+    {
+      "name": "Power Diesel Engineering",
+      "lat": 1.32395,
+      "lon": 103.64243,
+      "status": "open"
+    },
+    {
+      "name": "NTU Diesel Car Racing Team",
+      "lat": 1.3451,
+      "lon": 103.68104,
+      "status": "open"
+    },
+    {
+      "name": "Best Fuel Club",
+      "lat": 1.31488,
+      "lon": 103.67932,
+      "status": "open"
+    },
+    {
+      "name": "Agassi Korean Hair Salon",
+      "lat": 1.30156,
+      "lon": 103.83859,
+      "status": "open"
+    },
+    {
+      "name": "Morimori Yogashi",
+      "lat": 1.27738,
+      "lon": 103.83995,
+      "status": "open"
+    },
+    {
+      "name": "Nagase Food Ingredients",
+      "lat": 1.28746,
+      "lon": 103.78315,
+      "status": "open"
+    },
+    {
+      "name": "Diesel",
+      "lat": 1.3032,
+      "lon": 103.83564,
+      "status": "open"
+    },
+    {
+      "name": "Oil and Gas Singapore - Singapore's Oil and Gas Portal and Career Center",
+      "lat": 1.28613,
+      "lon": 103.83861,
+      "status": "open"
+    },
+    {
+      "name": "Elevate Gastroenterology",
+      "lat": 1.3033,
+      "lon": 103.82392,
+      "status": "open"
+    },
+    {
+      "name": "Las Vegas De Palace",
+      "lat": 1.2876,
+      "lon": 103.8363,
+      "status": "open"
+    },
+    {
+      "name": "BRICKS Gastrobar",
+      "lat": 1.29289,
+      "lon": 103.83123,
+      "status": "open"
+    },
+    {
+      "name": "Refuel",
+      "lat": 1.28636,
+      "lon": 103.80974,
+      "status": "open"
+    },
+    {
+      "name": "Diesel",
+      "lat": 1.30405,
+      "lon": 103.83157,
+      "status": "open"
+    },
+    {
+      "name": "Da Paolo Gastronomia",
+      "lat": 1.29427,
+      "lon": 103.83209,
+      "status": "open"
+    },
+    {
+      "name": "Fossil Fuels",
+      "lat": 1.25401,
+      "lon": 103.82397,
+      "status": "open"
+    },
+    {
+      "name": "Bistro Gaston",
+      "lat": 1.27984,
+      "lon": 103.84147,
+      "status": "open"
+    },
+    {
+      "name": "Diesel Paragon Singapore",
+      "lat": 1.30365,
+      "lon": 103.8353,
+      "status": "open"
+    },
+    {
+      "name": "La Cabane by Bistro Gaston",
+      "lat": 1.2798,
+      "lon": 103.84163,
+      "status": "open"
+    },
+    {
+      "name": "Công ty TNHH MTV Petrolimex Singapore - Petrolimex Singapore Pte Ltd",
+      "lat": 1.27359,
+      "lon": 103.84141,
+      "status": "open"
+    },
+    {
+      "name": "Accessorize",
+      "lat": 1.304,
+      "lon": 103.83213,
+      "status": "open"
+    },
+    {
+      "name": "Ods Nagasakiya",
+      "lat": 1.26407,
+      "lon": 103.82015,
+      "status": "open"
+    },
+    {
+      "name": "Gaston",
+      "lat": 1.27989,
+      "lon": 103.84138,
+      "status": "open"
+    },
+    {
+      "name": "Nespresso",
+      "lat": 1.26519,
+      "lon": 103.82209,
+      "status": "open"
+    },
+    {
+      "name": "Orgasm Club ",
+      "lat": 1.30072,
+      "lon": 103.83969,
+      "status": "open"
+    },
+    {
+      "name": "Refuel II",
+      "lat": 1.28634,
+      "lon": 103.80986,
+      "status": "open"
+    },
+    {
+      "name": "Batangas Varsitarian International Singapore Chapter",
+      "lat": 1.29142,
+      "lon": 103.84055,
+      "status": "open"
+    },
+    {
+      "name": "Pulau Bukom Shell Petroleum",
+      "lat": 1.26977,
+      "lon": 103.79578,
+      "status": "open"
+    },
+    {
+      "name": "Nagasaki Bar",
+      "lat": 1.28082,
+      "lon": 103.84182,
+      "status": "open"
+    },
+    {
+      "name": "Madagascar - Universal Studios Singapore",
+      "lat": 1.25547,
+      "lon": 103.8228,
+      "status": "open"
+    },
+    {
+      "name": "NÓMADA | Nomadic Spanish Gastronomy | Singapore",
+      "lat": 1.27906,
+      "lon": 103.84139,
+      "status": "open"
+    },
+    {
+      "name": "Gigas Pub",
+      "lat": 1.27671,
+      "lon": 103.83615,
+      "status": "open"
+    },
+    {
+      "name": "Pegasus Travel Management",
+      "lat": 1.28502,
+      "lon": 103.80912,
+      "status": "open"
+    },
+    {
+      "name": "RegASK",
+      "lat": 1.28949,
+      "lon": 103.79049,
+      "status": "open"
+    },
+    {
+      "name": "Comfortdelgro Diesel Sales",
+      "lat": 1.28573,
+      "lon": 103.80725,
+      "status": "open"
+    },
+    {
+      "name": "Nespresso",
+      "lat": 1.30412,
+      "lon": 103.83193,
+      "status": "open"
+    },
+    {
+      "name": "Green Rabbit Crepe and Salad Gastrobar",
+      "lat": 1.30078,
+      "lon": 103.83964,
+      "status": "open"
+    },
+    {
+      "name": "Da Paolo Gastronomia",
+      "lat": 1.26347,
+      "lon": 103.82254,
+      "status": "open"
+    },
+    {
+      "name": "Monsieur Diesel Hotels",
+      "lat": 1.27616,
+      "lon": 103.79617,
+      "status": "open"
+    },
+    {
+      "name": "Overworked Gastrobar",
+      "lat": 1.27238,
+      "lon": 103.84218,
+      "status": "open"
+    },
+    {
+      "name": "Modern Montessori Training Centre",
+      "lat": 1.33466,
+      "lon": 103.74019,
+      "status": "open"
+    },
+    {
+      "name": "Sealand Turbo-Diesel Asia",
+      "lat": 1.33678,
+      "lon": 103.75842,
+      "status": "open"
+    },
+    {
+      "name": "PS Tan Digestive & Liver Centre - Gastroenterologist Mount Elizabeth",
+      "lat": 1.30559,
+      "lon": 103.83548,
+      "status": "open"
+    },
+    {
+      "name": "Da Paolo Gastronomia",
+      "lat": 1.32269,
+      "lon": 103.81456,
+      "status": "open"
+    },
+    {
+      "name": "PTT Fuel Injection Service Company",
+      "lat": 1.30786,
+      "lon": 103.75667,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.30612,
+      "lon": 103.79149,
+      "status": "open"
+    },
+    {
+      "name": "Rodalink Jurong East Bicycle Megastore",
+      "lat": 1.32859,
+      "lon": 103.75197,
+      "status": "open"
+    },
+    {
+      "name": "HONC Gas",
+      "lat": 1.3393,
+      "lon": 103.75709,
+      "status": "open"
+    },
+    {
+      "name": "My Digital Lock Megastore -Bukit Batok",
+      "lat": 1.33754,
+      "lon": 103.75719,
+      "status": "open"
+    },
+    {
+      "name": "BlissYogaSG",
+      "lat": 1.30463,
+      "lon": 103.7833,
+      "status": "open"
+    },
+    {
+      "name": "Diesel Technic Asia Pacific Pte Ltd",
+      "lat": 1.34009,
+      "lon": 103.74965,
+      "status": "open"
+    },
+    {
+      "name": "Gastronomia",
+      "lat": 1.32272,
+      "lon": 103.81447,
+      "status": "open"
+    },
+    {
+      "name": "Dr Lin Cui Li - GastroClinic - Gastrointestinal and Endoscopy Specialist",
+      "lat": 1.30445,
+      "lon": 103.83523,
+      "status": "open"
+    },
+    {
+      "name": "Da Paolo Gastronomia",
+      "lat": 1.30434,
+      "lon": 103.83622,
+      "status": "open"
+    },
+    {
+      "name": "Prem Thurairajah@Acorn Gastroenterology",
+      "lat": 1.30558,
+      "lon": 103.83547,
+      "status": "open"
+    },
+    {
+      "name": "Pegasus Learning Academy",
+      "lat": 1.34159,
+      "lon": 103.77585,
+      "status": "open"
+    },
+    {
+      "name": "The Gastroenterology Group",
+      "lat": 1.30708,
+      "lon": 103.81951,
+      "status": "open"
+    },
+    {
+      "name": "Thwin's Liver and Gastro Clinic",
+      "lat": 1.30755,
+      "lon": 103.82015,
+      "status": "open"
+    },
+    {
+      "name": "PetrolWatch",
+      "lat": 1.31114,
+      "lon": 103.83676,
+      "status": "open"
+    },
+    {
+      "name": "Henry Gas",
+      "lat": 1.34142,
+      "lon": 103.75109,
+      "status": "open"
+    },
+    {
+      "name": "Yap Chin Kong Gastroenterology and Liver Clinic",
+      "lat": 1.30462,
+      "lon": 103.83539,
+      "status": "open"
+    },
+    {
+      "name": "Firestation Hillside Gastrobar",
+      "lat": 1.34988,
+      "lon": 103.77084,
+      "status": "open"
+    },
+    {
+      "name": "Da Paolo La Gastronomia",
+      "lat": 1.31054,
+      "lon": 103.79608,
+      "status": "open"
+    },
+    {
+      "name": "Diesel Forum",
+      "lat": 1.3066,
+      "lon": 103.8288,
+      "status": "open"
+    },
+    {
+      "name": "Gastro Liver and Surgical Centre",
+      "lat": 1.30629,
+      "lon": 103.8208,
+      "status": "open"
+    },
+    {
+      "name": "Modern Montessori International",
+      "lat": 1.34558,
+      "lon": 103.71766,
+      "status": "open"
+    },
+    {
+      "name": "JustIN Gastro Cafe and Bar",
+      "lat": 1.30469,
+      "lon": 103.83312,
+      "status": "open"
+    },
+    {
+      "name": "Esso Yarwood Petrol Station",
+      "lat": 1.33606,
+      "lon": 103.78406,
+      "status": "open"
+    },
+    {
+      "name": "Tomoe Transtech Specialty Gases",
+      "lat": 1.32773,
+      "lon": 103.75255,
+      "status": "open"
+    },
+    {
+      "name": "Gastrohealth Clinic",
+      "lat": 1.30755,
+      "lon": 103.81998,
+      "status": "open"
+    },
+    {
+      "name": "Gaspo Novelty Balloons",
+      "lat": 1.34318,
+      "lon": 103.75205,
+      "status": "open"
+    },
+    {
+      "name": "Outpost 903 Gastrobar",
+      "lat": 1.33303,
+      "lon": 103.79041,
+      "status": "open"
+    },
+    {
+      "name": "Dieseltech Pte Ltd",
+      "lat": 1.31318,
+      "lon": 103.73177,
+      "status": "open"
+    },
+    {
+      "name": "Pegasus Preschool",
+      "lat": 1.33769,
+      "lon": 103.79361,
+      "status": "open"
+    },
+    {
+      "name": "Marquis Oil Sdn Bhd",
+      "lat": 1.43582,
+      "lon": 103.61855,
+      "status": "open"
+    },
+    {
+      "name": "Shell Select",
+      "lat": 1.49889,
+      "lon": 103.65516,
+      "status": "open"
+    },
+    {
+      "name": "BHPETROL",
+      "lat": 1.48633,
+      "lon": 103.74742,
+      "status": "open"
+    },
+    {
+      "name": "Department Diploma in Gas Engineering Technology",
+      "lat": 1.49965,
+      "lon": 103.73033,
+      "status": "open"
+    },
+    {
+      "name": "PGM GASGAS",
+      "lat": 1.4741,
+      "lon": 103.61469,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.49885,
+      "lon": 103.65519,
+      "status": "open"
+    },
+    {
+      "name": "Modern Montessori Preschool Centre",
+      "lat": 1.36063,
+      "lon": 103.75051,
+      "status": "open"
+    },
+    {
+      "name": "KH Asset Management Sdn Bhd",
+      "lat": 1.46539,
+      "lon": 103.62327,
+      "status": "open"
+    },
+    {
+      "name": "Pavalayee Sdn Bhd",
+      "lat": 1.39659,
+      "lon": 103.63136,
+      "status": "open"
+    },
+    {
+      "name": "JDT Lubricants • DB Petroleum Sdn Bhd",
+      "lat": 1.48076,
+      "lon": 103.61914,
+      "status": "open"
+    },
+    {
+      "name": "BHPetrol Taman Perling",
+      "lat": 1.49909,
+      "lon": 103.68211,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.48839,
+      "lon": 103.72838,
+      "status": "open"
+    },
+    {
+      "name": "Shell Select",
+      "lat": 1.48838,
+      "lon": 103.72839,
+      "status": "open"
+    },
+    {
+      "name": "Tamil Gas Enterprise",
+      "lat": 1.49988,
+      "lon": 103.66517,
+      "status": "open"
+    },
+    {
+      "name": "Dua Gagasan Enterprise",
+      "lat": 1.49784,
+      "lon": 103.74262,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.49695,
+      "lon": 103.7005,
+      "status": "open"
+    },
+    {
+      "name": "Corak Merdu Sdn Bhd",
+      "lat": 1.48728,
+      "lon": 103.74607,
+      "status": "open"
+    },
+    {
+      "name": "BHPetrol",
+      "lat": 1.49785,
+      "lon": 103.69891,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.49679,
+      "lon": 103.74439,
+      "status": "open"
+    },
+    {
+      "name": "Manickam Diesel Pump Station",
+      "lat": 1.42218,
+      "lon": 103.7465,
+      "status": "open"
+    },
+    {
+      "name": "Courts Megastore",
+      "lat": 1.4848,
+      "lon": 103.74893,
+      "status": "open"
+    },
+    {
+      "name": "Allied Majestic Icon Sdn Bhd",
+      "lat": 1.48227,
+      "lon": 103.77179,
+      "status": "open"
+    },
+    {
+      "name": "Lagenda Legasi Solution",
+      "lat": 1.49973,
+      "lon": 103.71809,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.49891,
+      "lon": 103.68301,
+      "status": "open"
+    },
+    {
+      "name": "Caltex Malaysia",
+      "lat": 1.43569,
+      "lon": 103.6184,
+      "status": "open"
+    },
+    {
+      "name": "Professor Uniform",
+      "lat": 1.49598,
+      "lon": 103.70473,
+      "status": "open"
+    },
+    {
+      "name": "Caltex",
+      "lat": 1.39557,
+      "lon": 103.63856,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.47912,
+      "lon": 103.6824,
+      "status": "open"
+    },
+    {
+      "name": "Gears & Gasoline",
+      "lat": 1.43109,
+      "lon": 103.75327,
+      "status": "open"
+    },
+    {
+      "name": "Puncak Ultra Sdn Bhd",
+      "lat": 1.47611,
+      "lon": 103.67931,
+      "status": "open"
+    },
+    {
+      "name": "Gemini Flagship Sdn Bhd",
+      "lat": 1.44588,
+      "lon": 103.60238,
+      "status": "open"
+    },
+    {
+      "name": "Shell Select",
+      "lat": 1.49675,
+      "lon": 103.74438,
+      "status": "open"
+    },
+    {
+      "name": "Top Fuel Automotive Pte Ltd",
+      "lat": 1.43073,
+      "lon": 103.75274,
+      "status": "open"
+    },
+    {
+      "name": "Johor Oil and Gas Unit",
+      "lat": 1.41891,
+      "lon": 103.65253,
+      "status": "open"
+    },
+    {
+      "name": "Shell Oil Petroleum",
+      "lat": 1.44631,
+      "lon": 103.77431,
+      "status": "open"
+    },
+    {
+      "name": "Ammar's Gastronomy",
+      "lat": 1.3886,
+      "lon": 103.77125,
+      "status": "open"
+    },
+    {
+      "name": "Shell Select",
+      "lat": 1.46408,
+      "lon": 103.75449,
+      "status": "open"
+    },
+    {
+      "name": "Refuel J9",
+      "lat": 1.4335,
+      "lon": 103.84167,
+      "status": "open"
+    },
+    {
+      "name": "Paradise Gastronomy 食味堂",
+      "lat": 1.42996,
+      "lon": 103.83645,
+      "status": "open"
+    },
+    {
+      "name": "Fuel Shack @ Komtar JBCC",
+      "lat": 1.46433,
+      "lon": 103.76229,
+      "status": "open"
+    },
+    {
+      "name": "Shell Select",
+      "lat": 1.46475,
+      "lon": 103.76148,
+      "status": "open"
+    },
+    {
+      "name": "Pegasus Films Pte Ltd",
+      "lat": 1.35841,
+      "lon": 103.83345,
+      "status": "open"
+    },
+    {
+      "name": "Modern Montessori Preschool Centre",
+      "lat": 1.44435,
+      "lon": 103.79389,
+      "status": "open"
+    },
+    {
+      "name": "AutoDiesel Turbo Fuel Systems Pte Ltd",
+      "lat": 1.45008,
+      "lon": 103.79191,
+      "status": "open"
+    },
+    {
+      "name": "BH Petrol Tebrau 1",
+      "lat": 1.47576,
+      "lon": 103.76303,
+      "status": "open"
+    },
+    {
+      "name": "Rengas Path",
+      "lat": 1.35565,
+      "lon": 103.77579,
+      "status": "open"
+    },
+    {
+      "name": "Yong Heng Seng Gas Hob Repair",
+      "lat": 1.4527,
+      "lon": 103.79508,
+      "status": "open"
+    },
+    {
+      "name": "The Gathering Gastro Pub",
+      "lat": 1.48415,
+      "lon": 103.77012,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.46411,
+      "lon": 103.75455,
+      "status": "open"
+    },
+    {
+      "name": "oil and gas",
+      "lat": 1.46037,
+      "lon": 103.76319,
+      "status": "open"
+    },
+    {
+      "name": "City Gas Pte LTD",
+      "lat": 1.46916,
+      "lon": 103.80808,
+      "status": "open"
+    },
+    {
+      "name": "Aggasys Solutions Pte. Ltd.",
+      "lat": 1.35908,
+      "lon": 103.83443,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.48293,
+      "lon": 103.7721,
+      "status": "open"
+    },
+    {
+      "name": "Tan Brothers Gas Supply",
+      "lat": 1.38764,
+      "lon": 103.84072,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.47136,
+      "lon": 103.76566,
+      "status": "open"
+    },
+    {
+      "name": "Medical, Liver and Gastro Specialist Center",
+      "lat": 1.48072,
+      "lon": 103.76257,
+      "status": "open"
+    },
+    {
+      "name": "Aristo Gastrobar",
+      "lat": 1.48342,
+      "lon": 103.8311,
+      "status": "open"
+    },
+    {
+      "name": "Modern Montessori International",
+      "lat": 1.37624,
+      "lon": 103.75832,
+      "status": "open"
+    },
+    {
+      "name": "VP Racing Fuels - Singapore",
+      "lat": 1.46557,
+      "lon": 103.80254,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.46479,
+      "lon": 103.76154,
+      "status": "open"
+    },
+    {
+      "name": "Argasol Silver",
+      "lat": 1.35869,
+      "lon": 103.83415,
+      "status": "open"
+    },
+    {
+      "name": "Diesel Injectronic Pte Ltd",
+      "lat": 1.45054,
+      "lon": 103.79184,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.48693,
+      "lon": 103.76846,
+      "status": "open"
+    },
+    {
+      "name": "Megastar",
+      "lat": 1.49062,
+      "lon": 103.76771,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.49225,
+      "lon": 103.80423,
+      "status": "open"
+    },
+    {
+      "name": "Shell Select",
+      "lat": 1.4922,
+      "lon": 103.8042,
+      "status": "open"
+    },
+    {
+      "name": "Meranti Service Station",
+      "lat": 1.49065,
+      "lon": 103.76662,
+      "status": "open"
+    },
+    {
+      "name": "Caltex Malaysia",
+      "lat": 1.48695,
+      "lon": 103.76047,
+      "status": "open"
+    },
+    {
+      "name": "Shell Select",
+      "lat": 1.49725,
+      "lon": 103.8202,
+      "status": "open"
+    },
+    {
+      "name": "Jin Gastrobar",
+      "lat": 1.49773,
+      "lon": 103.77756,
+      "status": "open"
+    },
+    {
+      "name": "Juspc Technology Gaming PC Builder",
+      "lat": 1.4973,
+      "lon": 103.77704,
+      "status": "open"
+    },
+    {
+      "name": "nigasa korean restoran bbq",
+      "lat": 1.49711,
+      "lon": 103.81351,
+      "status": "open"
+    },
+    {
+      "name": "Imanigaz ACGAS",
+      "lat": 1.49476,
+      "lon": 103.81355,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.49054,
+      "lon": 103.78592,
+      "status": "open"
+    },
+    {
+      "name": "Bhpetrol Permas Jaya",
+      "lat": 1.49467,
+      "lon": 103.81313,
+      "status": "open"
+    },
+    {
+      "name": "Shell Select",
+      "lat": 1.48685,
+      "lon": 103.7685,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.49731,
+      "lon": 103.82013,
+      "status": "open"
+    },
+    {
+      "name": "A-Gas",
+      "lat": 1.28489,
+      "lon": 103.85199,
+      "status": "open"
+    },
+    {
+      "name": "BP Sinopec Marine Fuels",
+      "lat": 1.27913,
+      "lon": 103.85471,
+      "status": "open"
+    },
+    {
+      "name": "Tapasu Oyster Gastronomiya",
+      "lat": 1.28097,
+      "lon": 103.84829,
+      "status": "open"
+    },
+    {
+      "name": "Izakaya Niningashi",
+      "lat": 1.27747,
+      "lon": 103.84326,
+      "status": "open"
+    },
+    {
+      "name": "Gigi Gastrobar and Bistro",
+      "lat": 1.28106,
+      "lon": 103.85241,
+      "status": "open"
+    },
+    {
+      "name": "China Gas International Pte. Ltd.",
+      "lat": 1.28052,
+      "lon": 103.85457,
+      "status": "open"
+    },
+    {
+      "name": "Kimoto Gastro Bar",
+      "lat": 1.28125,
+      "lon": 103.8529,
+      "status": "open"
+    },
+    {
+      "name": "Ecotech Fuelless Generators",
+      "lat": 1.28272,
+      "lon": 103.8512,
+      "status": "open"
+    },
+    {
+      "name": "China Gas International Pte. Ltd.",
+      "lat": 1.27912,
+      "lon": 103.85437,
+      "status": "open"
+    },
+    {
+      "name": "Erwin's Gastrobar",
+      "lat": 1.27976,
+      "lon": 103.85447,
+      "status": "open"
+    },
+    {
+      "name": "Erwin's Gastrobar",
+      "lat": 1.28002,
+      "lon": 103.85438,
+      "status": "open"
+    },
+    {
+      "name": "Gastro-Sense",
+      "lat": 1.2814,
+      "lon": 103.85101,
+      "status": "open"
+    },
+    {
+      "name": "Rudrakshaa Yogashala",
+      "lat": 1.2803,
+      "lon": 103.84747,
+      "status": "open"
+    },
+    {
+      "name": "Refining, Crude Oil, Petroleum, HANSE OIL",
+      "lat": 1.27974,
+      "lon": 103.85381,
+      "status": "open"
+    },
+    {
+      "name": "13% Gastro Wine",
+      "lat": 1.28122,
+      "lon": 103.84815,
+      "status": "open"
+    },
+    {
+      "name": "Celina's Gastrobar",
+      "lat": 1.27828,
+      "lon": 103.84337,
+      "status": "open"
+    },
+    {
+      "name": "Kookaburra Restaurant and Gastrobar",
+      "lat": 1.30423,
+      "lon": 103.85086,
+      "status": "open"
+    },
+    {
+      "name": "Gashaus",
+      "lat": 1.29914,
+      "lon": 103.85364,
+      "status": "open"
+    },
+    {
+      "name": "Da Paolo Gastronomia",
+      "lat": 1.29377,
+      "lon": 103.85341,
+      "status": "open"
+    },
+    {
+      "name": "13% Gastro Wine",
+      "lat": 1.30205,
+      "lon": 103.86137,
+      "status": "open"
+    },
+    {
+      "name": "Gastronomia Da Paolo",
+      "lat": 1.28551,
+      "lon": 103.85199,
+      "status": "open"
+    },
+    {
+      "name": "Kelo Cafe Gastrobar",
+      "lat": 1.30674,
+      "lon": 103.85627,
+      "status": "open"
+    },
+    {
+      "name": "VegasPalace Daycare & Boarding",
+      "lat": 1.30771,
+      "lon": 103.8575,
+      "status": "open"
+    },
+    {
+      "name": "University of Nevada Las Vegas – Singapore",
+      "lat": 1.29773,
+      "lon": 103.85409,
+      "status": "open"
+    },
+    {
+      "name": "Techpegasus",
+      "lat": 1.29061,
+      "lon": 103.84927,
+      "status": "open"
+    },
+    {
+      "name": "The GAS Station Singapore",
+      "lat": 1.29631,
+      "lon": 103.85514,
+      "status": "open"
+    },
+    {
+      "name": "Singasia Resources",
+      "lat": 1.30005,
+      "lon": 103.85519,
+      "status": "open"
+    },
+    {
+      "name": "Nespresso",
+      "lat": 1.29442,
+      "lon": 103.8529,
+      "status": "open"
+    },
+    {
+      "name": "Kallang Gasworks",
+      "lat": 1.3068,
+      "lon": 103.86754,
+      "status": "open"
+    },
+    {
+      "name": "Visual Orgasm Tattoo and Piercing",
+      "lat": 1.28635,
+      "lon": 103.84941,
+      "status": "open"
+    },
+    {
+      "name": "Modern Montessori International Group",
+      "lat": 1.28706,
+      "lon": 103.84797,
+      "status": "open"
+    },
+    {
+      "name": "Pegasus International Preschool - Kindergarten & Childcare Centre near Novena and Newton - シンガポールインターナショナルプリスクール",
+      "lat": 1.31235,
+      "lon": 103.84714,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.49736,
+      "lon": 103.85536,
+      "status": "open"
+    },
+    {
+      "name": "Equatorial Marine Fuel Management Services",
+      "lat": 1.31835,
+      "lon": 103.84332,
+      "status": "open"
+    },
+    {
+      "name": "Desmond Wai Liver and Gastrointestinal Diseases Centre",
+      "lat": 1.32222,
+      "lon": 103.84437,
+      "status": "open"
+    },
+    {
+      "name": "Gastrogig",
+      "lat": 1.40531,
+      "lon": 103.86556,
+      "status": "open"
+    },
+    {
+      "name": "BeautyFuel Brows and Lashes Studio",
+      "lat": 1.39006,
+      "lon": 103.86957,
+      "status": "open"
+    },
+    {
+      "name": "Fuel Up Yishun",
+      "lat": 1.43749,
+      "lon": 103.84381,
+      "status": "open"
+    },
+    {
+      "name": "Thai & Viet Food Gastro",
+      "lat": 1.33203,
+      "lon": 103.84935,
+      "status": "open"
+    },
+    {
+      "name": "Caltex Seri Alam(TTK HAULAGE)",
+      "lat": 1.49959,
+      "lon": 103.86425,
+      "status": "open"
+    },
+    {
+      "name": "Paediatric & Gastroenterology Clinic",
+      "lat": 1.32057,
+      "lon": 103.84322,
+      "status": "open"
+    },
+    {
+      "name": "Nobel Gastroenterology Centre (Mount Elizabeth Novena)",
+      "lat": 1.32224,
+      "lon": 103.84404,
+      "status": "open"
+    },
+    {
+      "name": "Shell Select",
+      "lat": 1.47752,
+      "lon": 103.8644,
+      "status": "open"
+    },
+    {
+      "name": "C J Ooi Gastroenterology Clinic",
+      "lat": 1.3122,
+      "lon": 103.85419,
+      "status": "open"
+    },
+    {
+      "name": "SIWA Brothers Trading Sdn Bhd",
+      "lat": 1.4929,
+      "lon": 103.91921,
+      "status": "open"
+    },
+    {
+      "name": "Hoe Yew Fuel Pump Machinery",
+      "lat": 1.33585,
+      "lon": 103.86051,
+      "status": "open"
+    },
+    {
+      "name": "Dr Chia Chung King Gastroenterologist at Gutcare",
+      "lat": 1.3222,
+      "lon": 103.84424,
+      "status": "open"
+    },
+    {
+      "name": "Gassan Diamonds",
+      "lat": 1.39096,
+      "lon": 103.85081,
+      "status": "open"
+    },
+    {
+      "name": "Pegasus International Preschool",
+      "lat": 1.31248,
+      "lon": 103.84731,
+      "status": "open"
+    },
+    {
+      "name": "Endoscopy Clinic - Colonoscopy & Gastroscopy",
+      "lat": 1.322,
+      "lon": 103.84462,
+      "status": "open"
+    },
+    {
+      "name": "BHPetrol Taman Rinting",
+      "lat": 1.48927,
+      "lon": 103.87092,
+      "status": "open"
+    },
+    {
+      "name": "Acorn Gastroenterology@Farrer Park Hospital",
+      "lat": 1.31251,
+      "lon": 103.85397,
+      "status": "open"
+    },
+    {
+      "name": "Legasi Selatan Sdn. Bhd.",
+      "lat": 1.4769,
+      "lon": 103.86562,
+      "status": "open"
+    },
+    {
+      "name": "BHPetrol Masai",
+      "lat": 1.49251,
+      "lon": 103.87758,
+      "status": "open"
+    },
+    {
+      "name": "Fuel X",
+      "lat": 1.32843,
+      "lon": 103.86951,
+      "status": "open"
+    },
+    {
+      "name": "Dr Christina Ong - Paediatric & Gastroenterology Clinic",
+      "lat": 1.32181,
+      "lon": 103.84477,
+      "status": "open"
+    },
+    {
+      "name": "TTK Haulage Sdn Bhd",
+      "lat": 1.49962,
+      "lon": 103.86421,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.47512,
+      "lon": 103.86565,
+      "status": "open"
+    },
+    {
+      "name": "Vegas Automobile Pte. Ltd.",
+      "lat": 1.33287,
+      "lon": 103.89504,
+      "status": "open"
+    },
+    {
+      "name": "Pegasus Gold",
+      "lat": 1.31471,
+      "lon": 103.89329,
+      "status": "open"
+    },
+    {
+      "name": "Gasafe BBQ Store (Weber)",
+      "lat": 1.33401,
+      "lon": 103.89511,
+      "status": "open"
+    },
+    {
+      "name": "Shell Select",
+      "lat": 1.3338,
+      "lon": 103.9554,
+      "status": "open"
+    },
+    {
+      "name": "Vegas Auto Trading",
+      "lat": 1.31443,
+      "lon": 103.89134,
+      "status": "open"
+    },
+    {
+      "name": "Pergas Investment",
+      "lat": 1.31694,
+      "lon": 103.90309,
+      "status": "open"
+    },
+    {
+      "name": "Tipsy Bird Gastrobar",
+      "lat": 1.31742,
+      "lon": 103.89382,
+      "status": "open"
+    },
+    {
+      "name": "Gashub",
+      "lat": 1.33439,
+      "lon": 103.90362,
+      "status": "open"
+    },
+    {
+      "name": "Acorn Gastroenterology @ Parkway East Hospital",
+      "lat": 1.31496,
+      "lon": 103.9087,
+      "status": "open"
+    },
+    {
+      "name": "Izakaya Niningashi East Coast",
+      "lat": 1.3059,
+      "lon": 103.90462,
+      "status": "open"
+    },
+    {
+      "name": "Singapore Petroleum Co (SPC)",
+      "lat": 1.32581,
+      "lon": 103.93799,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.3338,
+      "lon": 103.9554,
+      "status": "open"
+    },
+    {
+      "name": "A&G Industrial Gas Trading",
+      "lat": 1.33362,
+      "lon": 103.96882,
+      "status": "open"
+    },
+    {
+      "name": "Alagas Network",
+      "lat": 1.32903,
+      "lon": 103.87945,
+      "status": "open"
+    },
+    {
+      "name": "Pegasus Property Solutions Pte Ltd",
+      "lat": 1.31382,
+      "lon": 103.88664,
+      "status": "open"
+    },
+    {
+      "name": "Collins® Gastro Dining",
+      "lat": 1.3174,
+      "lon": 103.89281,
+      "status": "open"
+    },
+    {
+      "name": "Dnv Petroleum",
+      "lat": 1.339,
+      "lon": 103.97271,
+      "status": "open"
+    },
+    {
+      "name": "Toll Offshore Petroleum Services",
+      "lat": 1.38191,
+      "lon": 103.97251,
+      "status": "open"
+    },
+    {
+      "name": "Shell Select",
+      "lat": 1.46952,
+      "lon": 103.90479,
+      "status": "open"
+    },
+    {
+      "name": "Legasi Hartanah",
+      "lat": 1.48416,
+      "lon": 103.8921,
+      "status": "open"
+    },
+    {
+      "name": "Legasi ZN Tuah Resources",
+      "lat": 1.4703,
+      "lon": 103.93217,
+      "status": "open"
+    },
+    {
+      "name": "Vegas Motor Works",
+      "lat": 1.341,
+      "lon": 103.94195,
+      "status": "open"
+    },
+    {
+      "name": "Yew Lee Heng LP-Gas Tdg Pte Ltd",
+      "lat": 1.34042,
+      "lon": 103.88994,
+      "status": "open"
+    },
+    {
+      "name": "Fuel Kitchen",
+      "lat": 1.34534,
+      "lon": 103.88129,
+      "status": "open"
+    },
+    {
+      "name": "Petronas Gas Pasir Gudang",
+      "lat": 1.46144,
+      "lon": 103.89324,
+      "status": "open"
+    },
+    {
+      "name": "Caltex Malaysia",
+      "lat": 1.44375,
+      "lon": 103.91341,
+      "status": "open"
+    },
+    {
+      "name": "Perniagaan Maligas",
+      "lat": 1.48364,
+      "lon": 103.94289,
+      "status": "open"
+    },
+    {
+      "name": "Rolex Boutique - Gassan Watch Changi Airport Terminal 3",
+      "lat": 1.3541,
+      "lon": 103.98568,
+      "status": "open"
+    },
+    {
+      "name": "Toll Offshore Petroleum Services Pte Ltd",
+      "lat": 1.38228,
+      "lon": 103.96875,
+      "status": "open"
+    },
+    {
+      "name": "Sin Wei Gas Supply Pte Ltd",
+      "lat": 1.33673,
+      "lon": 103.90315,
+      "status": "open"
+    },
+    {
+      "name": "Caltex Kota Masai (Siwa Brothers)",
+      "lat": 1.49301,
+      "lon": 103.91926,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.46951,
+      "lon": 103.90479,
+      "status": "open"
+    },
+    {
+      "name": "Playfair Gastropub",
+      "lat": 1.33704,
+      "lon": 103.88542,
+      "status": "open"
+    },
+    {
+      "name": "Gergasi Motor Pasir Gudang",
+      "lat": 1.4919,
+      "lon": 103.91111,
+      "status": "open"
+    },
+    {
+      "name": "Gas Malaysia Southern",
+      "lat": 1.45586,
+      "lon": 103.89871,
+      "status": "open"
+    },
+    {
+      "name": "Sealy - COURTS Megastore",
+      "lat": 1.3736,
+      "lon": 103.9338,
+      "status": "open"
+    },
+    {
+      "name": "Koperasi Kakitangan Lembaga Pelabuhan Johor Berhad",
+      "lat": 1.44381,
+      "lon": 103.91342,
+      "status": "open"
+    },
+    {
+      "name": "Gassan Watch Rolex Boutique Changi Airport terminal 3",
+      "lat": 1.35411,
+      "lon": 103.98564,
+      "status": "open"
+    },
+    {
+      "name": "Penguin GastroBar",
+      "lat": 1.35264,
+      "lon": 103.94164,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.34199,
+      "lon": 103.96118,
+      "status": "open"
+    },
+    {
+      "name": "Courts Megastore",
+      "lat": 1.3733,
+      "lon": 103.93358,
+      "status": "open"
+    },
+    {
+      "name": "Mox Linde & Gases, Pasir Gudang",
+      "lat": 1.4533,
+      "lon": 103.9066,
+      "status": "open"
+    },
+    {
+      "name": "Vegas Vehicle Leasing",
+      "lat": 1.34101,
+      "lon": 103.94194,
+      "status": "open"
+    },
+    {
+      "name": "JM Petroleum Machinery Trading",
+      "lat": 1.35235,
+      "lon": 103.94211,
+      "status": "open"
+    },
+    {
+      "name": "Linkgas Engineering Enterprise",
+      "lat": 1.33811,
+      "lon": 103.94924,
+      "status": "open"
+    },
+    {
+      "name": "Gassan Watch Changi Airport Terminal 2 - Official Rolex Retailer",
+      "lat": 1.35439,
+      "lon": 103.98889,
+      "status": "open"
+    },
+    {
+      "name": "Tadika Pintar Cergas",
+      "lat": 1.46683,
+      "lon": 103.89342,
+      "status": "open"
+    },
+    {
+      "name": "SKH GASTROENTEROLOGY & HEPATOLOGY clinic",
+      "lat": 1.39426,
+      "lon": 103.89308,
+      "status": "open"
+    },
+    {
+      "name": "Love For Wagashi",
+      "lat": 1.35532,
+      "lon": 103.88822,
+      "status": "open"
+    },
+    {
+      "name": "Airgas technology S/B",
+      "lat": 1.48483,
+      "lon": 103.94867,
+      "status": "open"
+    },
+    {
+      "name": "Refuel Cafe",
+      "lat": 1.33756,
+      "lon": 103.92124,
+      "status": "open"
+    },
+    {
+      "name": "Vegas Interior Design",
+      "lat": 1.37141,
+      "lon": 103.93401,
+      "status": "open"
+    },
+    {
+      "name": "Gassan Watch",
+      "lat": 1.36152,
+      "lon": 103.99017,
+      "status": "open"
+    },
+    {
+      "name": "Shell",
+      "lat": 1.49024,
+      "lon": 103.9128,
+      "status": "open"
+    },
+    {
+      "name": "Fuel Garage Pte. Ltd.",
+      "lat": 1.33823,
+      "lon": 103.90575,
+      "status": "open"
+    }
+  ],
+  "open_not_in_osm_restaurants": [
+    {
+      "name": "DriedFoodSG",
+      "lat": 1.2845,
+      "lon": 103.77801,
+      "status": "open"
+    },
+    {
+      "name": "ရွှေကြယ်",
+      "lat": 1.30223,
+      "lon": 103.78921,
+      "status": "open"
+    },
+    {
+      "name": "Chong Mao Hup Kee Foodstuff",
+      "lat": 1.28475,
+      "lon": 103.77846,
+      "status": "open"
+    },
+    {
+      "name": "Dr. Oetker Singapore",
+      "lat": 1.27196,
+      "lon": 103.83273,
+      "status": "open"
+    },
+    {
+      "name": "Ye Lai Xiang Teochew Porridge",
+      "lat": 1.28455,
+      "lon": 103.82109,
+      "status": "open"
+    },
+    {
+      "name": "MOMO Cha Cha",
+      "lat": 1.29094,
+      "lon": 103.817,
+      "status": "open"
+    },
+    {
+      "name": "Chapalangdiam",
+      "lat": 1.27212,
+      "lon": 103.82601,
+      "status": "open"
+    },
+    {
+      "name": "MinYue Restaurant 闽粤楼",
+      "lat": 1.28772,
+      "lon": 103.83577,
+      "status": "open"
+    },
+    {
+      "name": "The Garden @ The Sentosa Resort & Spa",
+      "lat": 1.24872,
+      "lon": 103.82668,
+      "status": "open"
+    },
+    {
+      "name": "W0W",
+      "lat": 1.28853,
+      "lon": 103.79122,
+      "status": "open"
+    },
+    {
+      "name": "E.A.C Eco Alfresco Cafe",
+      "lat": 1.25521,
+      "lon": 103.81449,
+      "status": "open"
+    },
+    {
+      "name": "Le Figue",
+      "lat": 1.30299,
+      "lon": 103.8238,
+      "status": "open"
+    },
+    {
+      "name": "IDooRi",
+      "lat": 1.28145,
+      "lon": 103.82111,
+      "status": "open"
+    },
+    {
+      "name": "Wan Xiang Rice & Porridge",
+      "lat": 1.28463,
+      "lon": 103.82223,
+      "status": "open"
+    },
+    {
+      "name": "Siang Hee Restaurant",
+      "lat": 1.29152,
+      "lon": 103.83335,
+      "status": "open"
+    },
+    {
+      "name": "Hua Ji Bao Dang",
+      "lat": 1.28449,
+      "lon": 103.8222,
+      "status": "open"
+    },
+    {
+      "name": "Fat Cow - Japanese Wagyu @ Camden Medical Centre",
+      "lat": 1.30276,
+      "lon": 103.82424,
+      "status": "open"
+    },
+    {
+      "name": "Sia Huat",
+      "lat": 1.29954,
+      "lon": 103.75242,
+      "status": "open"
+    },
+    {
+      "name": "1-Flowerhill",
+      "lat": 1.25378,
+      "lon": 103.81838,
+      "status": "open"
+    },
+    {
+      "name": "Soon Huat (JB) Bak Kut Teh",
+      "lat": 1.29389,
+      "lon": 103.7928,
+      "status": "open"
+    },
+    {
+      "name": "GRiD",
+      "lat": 1.30013,
+      "lon": 103.82872,
+      "status": "open"
+    },
+    {
+      "name": "Sum Kee Food (Telok Blangah)",
+      "lat": 1.27251,
+      "lon": 103.80636,
+      "status": "open"
+    },
+    {
+      "name": "Koipy Singapore",
+      "lat": 1.30285,
+      "lon": 103.78768,
+      "status": "open"
+    },
+    {
+      "name": "Cafe Melba at Mediapolis",
+      "lat": 1.29594,
+      "lon": 103.79236,
+      "status": "open"
+    },
+    {
+      "name": "Iyasaka By Hashida",
+      "lat": 1.24574,
+      "lon": 103.82874,
+      "status": "open"
+    },
+    {
+      "name": "Two Tall Trees",
+      "lat": 1.2882,
+      "lon": 103.78308,
+      "status": "open"
+    },
+    {
+      "name": "Alchemist The Mill",
+      "lat": 1.28537,
+      "lon": 103.80973,
+      "status": "open"
+    },
+    {
+      "name": "Bus Stop 16111 Aries",
+      "lat": 1.28643,
+      "lon": 103.7836,
+      "status": "open"
+    },
+    {
+      "name": "Taberna Wine Academy and Bar",
+      "lat": 1.28527,
+      "lon": 103.81172,
+      "status": "open"
+    },
+    {
+      "name": "Common Grill by COLLIN'S®",
+      "lat": 1.29225,
+      "lon": 103.79198,
+      "status": "open"
+    },
+    {
+      "name": "SAM Indian Muslim Food",
+      "lat": 1.27394,
+      "lon": 103.8253,
+      "status": "open"
+    },
+    {
+      "name": "Lets Go Singapore",
+      "lat": 1.30332,
+      "lon": 103.83727,
+      "status": "open"
+    },
+    {
+      "name": "Wildseed Bar & Grill",
+      "lat": 1.25363,
+      "lon": 103.81837,
+      "status": "open"
+    },
+    {
+      "name": "2280",
+      "lat": 1.28112,
+      "lon": 103.81884,
+      "status": "open"
+    },
+    {
+      "name": "Pandan Site @ Pandan Ave",
+      "lat": 1.30152,
+      "lon": 103.7492,
+      "status": "open"
+    },
+    {
+      "name": "Hotbake 24/7 Pte. Ltd.",
+      "lat": 1.29113,
+      "lon": 103.81434,
+      "status": "open"
+    },
+    {
+      "name": "Fish & Co.",
+      "lat": 1.28569,
+      "lon": 103.8109,
+      "status": "open"
+    },
+    {
+      "name": "Tea Sense 茶觉",
+      "lat": 1.28075,
+      "lon": 103.81916,
+      "status": "open"
+    },
+    {
+      "name": "Kai Xiang Huat Pte Ltd",
+      "lat": 1.28525,
+      "lon": 103.77547,
+      "status": "open"
+    },
+    {
+      "name": "Casserole",
+      "lat": 1.25728,
+      "lon": 103.80995,
+      "status": "open"
+    },
+    {
+      "name": "Zhong Wei Claypot Kitchen",
+      "lat": 1.29962,
+      "lon": 103.79795,
+      "status": "open"
+    }
+  ],
+  "acra_closed_but_in_osm_fuel": [
+    {
+      "acra_building": "caltex service station",
+      "postal": "579707",
+      "osm_name": "Caltex",
+      "osm_lat": 1.3254067,
+      "osm_lon": 103.8908172,
+      "sim": 1.0
+    },
+    {
+      "acra_building": "shell service station",
+      "postal": "787124",
+      "osm_name": "Shell Dunearn",
+      "osm_lat": 1.3309239,
+      "osm_lon": 103.7991009,
+      "sim": 0.56
+    },
+    {
+      "acra_building": "caltex service station",
+      "postal": "309436",
+      "osm_name": "Caltex",
+      "osm_lat": 1.3254067,
+      "osm_lon": 103.8908172,
+      "sim": 1.0
+    },
+    {
+      "acra_building": "spc service station",
+      "postal": "368140",
+      "osm_name": "SPC",
+      "osm_lat": 1.3232062,
+      "osm_lon": 103.8193298,
+      "sim": 1.0
+    }
+  ],
+  "summary": {
+    "closed_but_in_osm_fuel": 0,
+    "closed_but_in_osm_restaurants": 0,
+    "acra_closed_but_in_osm_fuel": 4,
+    "open_not_in_osm_fuel": 282,
+    "open_not_in_osm_restaurants": 41
+  }
+}
