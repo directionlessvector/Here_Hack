@@ -1,0 +1,32 @@
+{
+  "cnergy": {
+    "canonical": "Cnergy",
+    "aliases": [
+      "cnergy"
+    ],
+    "operator_aliases": [],
+    "discovered": true,
+    "discovered_at": "2026-03-26T23:22:48.486066+00:00",
+    "discovery_source": "auto_from_osm"
+  },
+  "smart": {
+    "canonical": "Smart Energy",
+    "aliases": [
+      "smart energy"
+    ],
+    "operator_aliases": [],
+    "discovered": true,
+    "discovered_at": "2026-03-26T23:22:48.486597+00:00",
+    "discovery_source": "auto_from_osm"
+  },
+  "refuelling": {
+    "canonical": "Refuelling Station",
+    "aliases": [
+      "refuelling"
+    ],
+    "operator_aliases": [],
+    "discovered": true,
+    "discovered_at": "2026-03-27T00:04:39.537734+00:00",
+    "discovery_source": "auto_from_osm"
+  }
+}
