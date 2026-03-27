@@ -1,0 +1,1793 @@
+[
+  {
+    "osm_id": "node/462263981",
+    "name": "SPC",
+    "brand_tag": "SPC",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3232062,
+    "lon": 103.8193298
+  },
+  {
+    "osm_id": "node/462264016",
+    "name": "Esso Dunearn",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.3310346,
+    "lon": 103.7986807
+  },
+  {
+    "osm_id": "node/1315694193",
+    "name": "ESSO",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3282744,
+    "lon": 103.9396206
+  },
+  {
+    "osm_id": "node/1315694304",
+    "name": "SPC Bedok",
+    "brand_tag": "SPC",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3279084,
+    "lon": 103.9397106
+  },
+  {
+    "osm_id": "node/1742904249",
+    "name": "SPC Bukit Batok Service Station",
+    "brand_tag": "",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.3432114,
+    "lon": 103.7585416
+  },
+  {
+    "osm_id": "node/1780170433",
+    "name": "Shell Dunearn",
+    "brand_tag": "",
+    "operator_tag": "Shell",
+    "cuisine": "",
+    "lat": 1.3309239,
+    "lon": 103.7991009
+  },
+  {
+    "osm_id": "node/1792763706",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "Shell",
+    "cuisine": "",
+    "lat": 1.2974825,
+    "lon": 103.8033958
+  },
+  {
+    "osm_id": "node/2296694340",
+    "name": "",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3495711,
+    "lon": 103.714902
+  },
+  {
+    "osm_id": "node/2889130801",
+    "name": "SPC Pasir Panjang",
+    "brand_tag": "SPC (Singapore Petroleum Company)",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.2770734,
+    "lon": 103.7906988
+  },
+  {
+    "osm_id": "node/4293091591",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.2825719,
+    "lon": 103.8213385
+  },
+  {
+    "osm_id": "node/4493724590",
+    "name": "Shell Tuas South",
+    "brand_tag": "Shell",
+    "operator_tag": "Shell",
+    "cuisine": "",
+    "lat": 1.2892716,
+    "lon": 103.6255849
+  },
+  {
+    "osm_id": "node/4620931195",
+    "name": "",
+    "brand_tag": "",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.3788131,
+    "lon": 103.8360236
+  },
+  {
+    "osm_id": "node/4769474326",
+    "name": "Shell Gas Station",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3410684,
+    "lon": 103.8489352
+  },
+  {
+    "osm_id": "node/6259820662",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3631658,
+    "lon": 103.8879955
+  },
+  {
+    "osm_id": "node/6326830481",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3501574,
+    "lon": 103.7012219
+  },
+  {
+    "osm_id": "node/6458287174",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3510309,
+    "lon": 103.723678
+  },
+  {
+    "osm_id": "node/6458621181",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3452443,
+    "lon": 103.7327667
+  },
+  {
+    "osm_id": "node/7196501594",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3254067,
+    "lon": 103.8908172
+  },
+  {
+    "osm_id": "node/7501471747",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3145064,
+    "lon": 103.9343159
+  },
+  {
+    "osm_id": "node/7637549570",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3187365,
+    "lon": 103.9129521
+  },
+  {
+    "osm_id": "node/7637580395",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3185447,
+    "lon": 103.9086411
+  },
+  {
+    "osm_id": "node/8088327127",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3856228,
+    "lon": 103.7464634
+  },
+  {
+    "osm_id": "node/8208614736",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "Caltex",
+    "cuisine": "",
+    "lat": 1.3493657,
+    "lon": 103.9284747
+  },
+  {
+    "osm_id": "node/8223862810",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "Shell",
+    "cuisine": "",
+    "lat": 1.2867386,
+    "lon": 103.834537
+  },
+  {
+    "osm_id": "node/8223864774",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.288499,
+    "lon": 103.8381916
+  },
+  {
+    "osm_id": "node/9107774054",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3069553,
+    "lon": 103.8024625
+  },
+  {
+    "osm_id": "node/9457441839",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3362441,
+    "lon": 103.8464734
+  },
+  {
+    "osm_id": "node/9457446717",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.362539,
+    "lon": 103.8525333
+  },
+  {
+    "osm_id": "node/9710976711",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3678865,
+    "lon": 103.8446476
+  },
+  {
+    "osm_id": "node/10859794063",
+    "name": "",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4309338,
+    "lon": 103.7844709
+  },
+  {
+    "osm_id": "node/12059241834",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.4003579,
+    "lon": 103.9091232
+  },
+  {
+    "osm_id": "way/45306423",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3125644,
+    "lon": 103.926542
+  },
+  {
+    "osm_id": "way/77182393",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3146577,
+    "lon": 103.7685828
+  },
+  {
+    "osm_id": "way/83697449",
+    "name": "SPC",
+    "brand_tag": "SPC",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3575722,
+    "lon": 103.9590308
+  },
+  {
+    "osm_id": "way/85552307",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3605801,
+    "lon": 103.9476711
+  },
+  {
+    "osm_id": "way/85584520",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "Shell",
+    "cuisine": "",
+    "lat": 1.3491978,
+    "lon": 103.9477306
+  },
+  {
+    "osm_id": "way/95940461",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "Caltex",
+    "cuisine": "",
+    "lat": 1.3386709,
+    "lon": 103.6927079
+  },
+  {
+    "osm_id": "way/96151942",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "Shell",
+    "cuisine": "",
+    "lat": 1.3440946,
+    "lon": 103.7078736
+  },
+  {
+    "osm_id": "way/100761852",
+    "name": "",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3486649,
+    "lon": 103.9385416
+  },
+  {
+    "osm_id": "way/101135043",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3131828,
+    "lon": 103.6875395
+  },
+  {
+    "osm_id": "way/107830792",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.3510307,
+    "lon": 103.7236795
+  },
+  {
+    "osm_id": "way/108730204",
+    "name": "",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3495897,
+    "lon": 103.7148054
+  },
+  {
+    "osm_id": "way/116337437",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "Shell",
+    "cuisine": "",
+    "lat": 1.3445889,
+    "lon": 103.8645824
+  },
+  {
+    "osm_id": "way/117227147",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3643769,
+    "lon": 103.8460205
+  },
+  {
+    "osm_id": "way/117325134",
+    "name": "Smart Energy",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3757525,
+    "lon": 103.8691319
+  },
+  {
+    "osm_id": "way/117994223",
+    "name": "Shell",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3458995,
+    "lon": 103.7720784
+  },
+  {
+    "osm_id": "way/117994234",
+    "name": "Esso",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.34514,
+    "lon": 103.7734358
+  },
+  {
+    "osm_id": "way/118459343",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3232239,
+    "lon": 103.6919337
+  },
+  {
+    "osm_id": "way/119996989",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3386135,
+    "lon": 103.7768265
+  },
+  {
+    "osm_id": "way/120509635",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.325168,
+    "lon": 103.7245364
+  },
+  {
+    "osm_id": "way/123063591",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3326607,
+    "lon": 103.8836596
+  },
+  {
+    "osm_id": "way/125481993",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4443155,
+    "lon": 103.7900753
+  },
+  {
+    "osm_id": "way/136666637",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3399256,
+    "lon": 103.7747724
+  },
+  {
+    "osm_id": "way/159027420",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3817193,
+    "lon": 103.8765182
+  },
+  {
+    "osm_id": "way/159027423",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3835749,
+    "lon": 103.8770723
+  },
+  {
+    "osm_id": "way/159669443",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.289313,
+    "lon": 103.8030147
+  },
+  {
+    "osm_id": "way/162384056",
+    "name": "Shell Bukit Batok Nature Park",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3475777,
+    "lon": 103.7649114
+  },
+  {
+    "osm_id": "way/162384059",
+    "name": "Shell Bukit Batok Nature Park",
+    "brand_tag": "Shell",
+    "operator_tag": "Shell",
+    "cuisine": "",
+    "lat": 1.3475677,
+    "lon": 103.7649843
+  },
+  {
+    "osm_id": "way/162651218",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "Shell",
+    "cuisine": "",
+    "lat": 1.3502451,
+    "lon": 103.7384464
+  },
+  {
+    "osm_id": "way/167951461",
+    "name": "Petrol Station (SPC)",
+    "brand_tag": "SPC",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.2914172,
+    "lon": 103.8009349
+  },
+  {
+    "osm_id": "way/169517612",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3411229,
+    "lon": 103.848861
+  },
+  {
+    "osm_id": "way/169518585",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.3357466,
+    "lon": 103.8554424
+  },
+  {
+    "osm_id": "way/172111963",
+    "name": "Shell Tiong Bahru",
+    "brand_tag": "Shell",
+    "operator_tag": "Shell",
+    "cuisine": "",
+    "lat": 1.288355,
+    "lon": 103.8195561
+  },
+  {
+    "osm_id": "way/172125700",
+    "name": "Shell",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4307918,
+    "lon": 103.8330456
+  },
+  {
+    "osm_id": "way/172127253",
+    "name": "Caltex Chong Pang",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4296346,
+    "lon": 103.8300469
+  },
+  {
+    "osm_id": "way/172214846",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "Mobil1",
+    "cuisine": "",
+    "lat": 1.2926298,
+    "lon": 103.8256913
+  },
+  {
+    "osm_id": "way/172363384",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "Shell",
+    "cuisine": "",
+    "lat": 1.289931,
+    "lon": 103.8324186
+  },
+  {
+    "osm_id": "way/172481795",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.2693609,
+    "lon": 103.8143481
+  },
+  {
+    "osm_id": "way/172481802",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.2705364,
+    "lon": 103.8128453
+  },
+  {
+    "osm_id": "way/172524613",
+    "name": "SPC",
+    "brand_tag": "SPC",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.2976438,
+    "lon": 103.8381796
+  },
+  {
+    "osm_id": "way/173552222",
+    "name": "Esso West Coast",
+    "brand_tag": "",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.3081078,
+    "lon": 103.7611446
+  },
+  {
+    "osm_id": "way/173642851",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.366703,
+    "lon": 103.7505756
+  },
+  {
+    "osm_id": "way/173729609",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4316284,
+    "lon": 103.8398418
+  },
+  {
+    "osm_id": "way/173896988",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4174125,
+    "lon": 103.8378219
+  },
+  {
+    "osm_id": "way/174886227",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.314832,
+    "lon": 103.7148962
+  },
+  {
+    "osm_id": "way/180475178",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.2948036,
+    "lon": 103.8163956
+  },
+  {
+    "osm_id": "way/188855309",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.3082565,
+    "lon": 103.9079033
+  },
+  {
+    "osm_id": "way/188855310",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3082144,
+    "lon": 103.9097668
+  },
+  {
+    "osm_id": "way/193421793",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3781931,
+    "lon": 103.7379782
+  },
+  {
+    "osm_id": "way/201275597",
+    "name": "Shell Thomson Novena",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3241041,
+    "lon": 103.8421201
+  },
+  {
+    "osm_id": "way/202541110",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3188127,
+    "lon": 103.8497957
+  },
+  {
+    "osm_id": "way/213593433",
+    "name": "SPC",
+    "brand_tag": "SPC",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3709212,
+    "lon": 103.9603828
+  },
+  {
+    "osm_id": "way/218215337",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4046094,
+    "lon": 103.9066717
+  },
+  {
+    "osm_id": "way/231917902",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3480365,
+    "lon": 103.8383272
+  },
+  {
+    "osm_id": "way/231917923",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3216901,
+    "lon": 103.8916152
+  },
+  {
+    "osm_id": "way/238927832",
+    "name": "Esso",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3953069,
+    "lon": 103.7473348
+  },
+  {
+    "osm_id": "way/241247295",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3556833,
+    "lon": 103.8807054
+  },
+  {
+    "osm_id": "way/241254871",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3577931,
+    "lon": 103.8753273
+  },
+  {
+    "osm_id": "way/241281944",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3233818,
+    "lon": 103.817414
+  },
+  {
+    "osm_id": "way/248048425",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3423199,
+    "lon": 103.7372994
+  },
+  {
+    "osm_id": "way/252391710",
+    "name": "Cnergy",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3342695,
+    "lon": 103.7588643
+  },
+  {
+    "osm_id": "way/252392056",
+    "name": "SMART Energy",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4111901,
+    "lon": 103.7577641
+  },
+  {
+    "osm_id": "way/256974372",
+    "name": "Shell",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3110925,
+    "lon": 103.8422294
+  },
+  {
+    "osm_id": "way/256974403",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "Cheers",
+    "cuisine": "",
+    "lat": 1.3109414,
+    "lon": 103.8427682
+  },
+  {
+    "osm_id": "way/260696423",
+    "name": "SPC",
+    "brand_tag": "SPC",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.3247223,
+    "lon": 103.8416049
+  },
+  {
+    "osm_id": "way/262966176",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3473379,
+    "lon": 103.8716505
+  },
+  {
+    "osm_id": "way/271791530",
+    "name": "SPC",
+    "brand_tag": "SPC",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.3267128,
+    "lon": 103.8479993
+  },
+  {
+    "osm_id": "way/276519230",
+    "name": "",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3911748,
+    "lon": 103.8988917
+  },
+  {
+    "osm_id": "way/276746327",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.385111,
+    "lon": 103.9005269
+  },
+  {
+    "osm_id": "way/283722874",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3585361,
+    "lon": 103.8827964
+  },
+  {
+    "osm_id": "way/283722875",
+    "name": "",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3588169,
+    "lon": 103.8840302
+  },
+  {
+    "osm_id": "way/302094475",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "Shell",
+    "cuisine": "",
+    "lat": 1.39149,
+    "lon": 103.8926968
+  },
+  {
+    "osm_id": "way/304360331",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3999191,
+    "lon": 103.8178506
+  },
+  {
+    "osm_id": "way/305882744",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3632963,
+    "lon": 103.8673349
+  },
+  {
+    "osm_id": "way/305882745",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3624631,
+    "lon": 103.8681579
+  },
+  {
+    "osm_id": "way/305884646",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3578373,
+    "lon": 103.8679326
+  },
+  {
+    "osm_id": "way/305948172",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3686719,
+    "lon": 103.8843165
+  },
+  {
+    "osm_id": "way/306119362",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3154929,
+    "lon": 103.9190618
+  },
+  {
+    "osm_id": "way/306119943",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3110506,
+    "lon": 103.9203008
+  },
+  {
+    "osm_id": "way/308900480",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3163251,
+    "lon": 103.9001194
+  },
+  {
+    "osm_id": "way/309981788",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.4400875,
+    "lon": 103.8252138
+  },
+  {
+    "osm_id": "way/309981789",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.4404093,
+    "lon": 103.825101
+  },
+  {
+    "osm_id": "way/312722344",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3308618,
+    "lon": 103.9476388
+  },
+  {
+    "osm_id": "way/313363352",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3046936,
+    "lon": 103.7419648
+  },
+  {
+    "osm_id": "way/315750736",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3597796,
+    "lon": 103.9697454
+  },
+  {
+    "osm_id": "way/315901621",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3769961,
+    "lon": 103.7625708
+  },
+  {
+    "osm_id": "way/318742754",
+    "name": "",
+    "brand_tag": "SPC",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.3488706,
+    "lon": 103.8378101
+  },
+  {
+    "osm_id": "way/325897240",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.2892259,
+    "lon": 103.7778495
+  },
+  {
+    "osm_id": "way/333036642",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.331818,
+    "lon": 103.8887994
+  },
+  {
+    "osm_id": "way/334113522",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3109206,
+    "lon": 103.8944357
+  },
+  {
+    "osm_id": "way/345832997",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "Shell",
+    "cuisine": "",
+    "lat": 1.3657268,
+    "lon": 103.9672156
+  },
+  {
+    "osm_id": "way/351313198",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.2717544,
+    "lon": 103.8070893
+  },
+  {
+    "osm_id": "way/351313201",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.271772,
+    "lon": 103.8072122
+  },
+  {
+    "osm_id": "way/352013785",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3610053,
+    "lon": 103.8739061
+  },
+  {
+    "osm_id": "way/352013786",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3606796,
+    "lon": 103.8739305
+  },
+  {
+    "osm_id": "way/361573965",
+    "name": "Caltex Alexandra",
+    "brand_tag": "Caltex",
+    "operator_tag": "Caltex",
+    "cuisine": "",
+    "lat": 1.2904074,
+    "lon": 103.8065884
+  },
+  {
+    "osm_id": "way/361573968",
+    "name": "Shell Alexandra",
+    "brand_tag": "Shell",
+    "operator_tag": "Shell",
+    "cuisine": "",
+    "lat": 1.2906893,
+    "lon": 103.8068243
+  },
+  {
+    "osm_id": "way/364452475",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "Caltex",
+    "cuisine": "",
+    "lat": 1.3177802,
+    "lon": 103.7855138
+  },
+  {
+    "osm_id": "way/380509062",
+    "name": "ESSO",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.316215,
+    "lon": 103.8369054
+  },
+  {
+    "osm_id": "way/380515064",
+    "name": "SPC Bukit Timah",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3180472,
+    "lon": 103.8320603
+  },
+  {
+    "osm_id": "way/380515292",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.318816,
+    "lon": 103.8334512
+  },
+  {
+    "osm_id": "way/384326665",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3205227,
+    "lon": 103.9161018
+  },
+  {
+    "osm_id": "way/384326986",
+    "name": "SPC",
+    "brand_tag": "SPC",
+    "operator_tag": "Singapore Petroleum Company",
+    "cuisine": "",
+    "lat": 1.3142612,
+    "lon": 103.9311375
+  },
+  {
+    "osm_id": "way/390829070",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3105915,
+    "lon": 103.8837865
+  },
+  {
+    "osm_id": "way/390829071",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3110504,
+    "lon": 103.8836199
+  },
+  {
+    "osm_id": "way/391194371",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3722492,
+    "lon": 103.7634215
+  },
+  {
+    "osm_id": "way/408482662",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.2801207,
+    "lon": 103.7855818
+  },
+  {
+    "osm_id": "way/428124581",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3512386,
+    "lon": 103.8354224
+  },
+  {
+    "osm_id": "way/430993688",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3025641,
+    "lon": 103.8842679
+  },
+  {
+    "osm_id": "way/430995100",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.302134,
+    "lon": 103.8842908
+  },
+  {
+    "osm_id": "way/451909829",
+    "name": "Sinopec Bukit Timah",
+    "brand_tag": "Sinopec",
+    "operator_tag": "Sinopec",
+    "cuisine": "",
+    "lat": 1.324746,
+    "lon": 103.8086244
+  },
+  {
+    "osm_id": "way/451946224",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.371939,
+    "lon": 103.8289086
+  },
+  {
+    "osm_id": "way/451946319",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3700193,
+    "lon": 103.828187
+  },
+  {
+    "osm_id": "way/451946394",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.3704735,
+    "lon": 103.8281626
+  },
+  {
+    "osm_id": "way/452264879",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3090359,
+    "lon": 103.9108252
+  },
+  {
+    "osm_id": "way/452289240",
+    "name": "Caltex",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3352495,
+    "lon": 103.7867433
+  },
+  {
+    "osm_id": "way/452645466",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3493223,
+    "lon": 103.8901799
+  },
+  {
+    "osm_id": "way/453226341",
+    "name": "",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4034544,
+    "lon": 103.818553
+  },
+  {
+    "osm_id": "way/453236693",
+    "name": "Shell Pasir Panjang 168",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.2774955,
+    "lon": 103.7896729
+  },
+  {
+    "osm_id": "way/453243423",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3311124,
+    "lon": 103.8777965
+  },
+  {
+    "osm_id": "way/453464497",
+    "name": "",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4163592,
+    "lon": 103.6941951
+  },
+  {
+    "osm_id": "way/453722345",
+    "name": "Shell",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4383024,
+    "lon": 103.7754204
+  },
+  {
+    "osm_id": "way/453962409",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4405268,
+    "lon": 103.8244205
+  },
+  {
+    "osm_id": "way/453962426",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.440173,
+    "lon": 103.8245438
+  },
+  {
+    "osm_id": "way/454182435",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3144823,
+    "lon": 103.8571999
+  },
+  {
+    "osm_id": "way/454190381",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.3243647,
+    "lon": 103.880767
+  },
+  {
+    "osm_id": "way/454226355",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3287241,
+    "lon": 103.8722272
+  },
+  {
+    "osm_id": "way/454887251",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.3323536,
+    "lon": 103.8789518
+  },
+  {
+    "osm_id": "way/454887253",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.3319119,
+    "lon": 103.8804199
+  },
+  {
+    "osm_id": "way/455066740",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4112994,
+    "lon": 103.7565269
+  },
+  {
+    "osm_id": "way/455159933",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3223252,
+    "lon": 103.9325501
+  },
+  {
+    "osm_id": "way/455161375",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "Mobil1",
+    "cuisine": "",
+    "lat": 1.3142323,
+    "lon": 103.8890909
+  },
+  {
+    "osm_id": "way/473355080",
+    "name": "SPC Bukit Panjang",
+    "brand_tag": "SPC",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3833624,
+    "lon": 103.7726817
+  },
+  {
+    "osm_id": "way/475159263",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3120016,
+    "lon": 103.8755927
+  },
+  {
+    "osm_id": "way/478127131",
+    "name": "Esso Queensway B",
+    "brand_tag": "ESSO",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.2911287,
+    "lon": 103.8012088
+  },
+  {
+    "osm_id": "way/478129347",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.2841875,
+    "lon": 103.8185587
+  },
+  {
+    "osm_id": "way/478794714",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3057238,
+    "lon": 103.7952058
+  },
+  {
+    "osm_id": "way/479746464",
+    "name": "Esso",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3579684,
+    "lon": 103.8284101
+  },
+  {
+    "osm_id": "way/479747449",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3709338,
+    "lon": 103.8282206
+  },
+  {
+    "osm_id": "way/479760437",
+    "name": "SPC",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3654382,
+    "lon": 103.8395579
+  },
+  {
+    "osm_id": "way/480300819",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3113198,
+    "lon": 103.8944293
+  },
+  {
+    "osm_id": "way/480534286",
+    "name": "Shell Bukit Timah",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3113424,
+    "lon": 103.8431299
+  },
+  {
+    "osm_id": "way/480673819",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4342531,
+    "lon": 103.7620215
+  },
+  {
+    "osm_id": "way/481060175",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3249516,
+    "lon": 103.8269642
+  },
+  {
+    "osm_id": "way/481628665",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "Caltex",
+    "cuisine": "",
+    "lat": 1.3267705,
+    "lon": 103.8452391
+  },
+  {
+    "osm_id": "way/481669538",
+    "name": "Esso",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3096295,
+    "lon": 103.7549987
+  },
+  {
+    "osm_id": "way/481669540",
+    "name": "Esso",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3098218,
+    "lon": 103.7550875
+  },
+  {
+    "osm_id": "way/482046508",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3730813,
+    "lon": 103.8289543
+  },
+  {
+    "osm_id": "way/482272085",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.3124677,
+    "lon": 103.7962181
+  },
+  {
+    "osm_id": "way/580038220",
+    "name": "SPC Sumang",
+    "brand_tag": "SPC",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.4103507,
+    "lon": 103.9009903
+  },
+  {
+    "osm_id": "way/591415748",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3579059,
+    "lon": 103.8284316
+  },
+  {
+    "osm_id": "way/672624946",
+    "name": "Esso Petrol Station",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.3952854,
+    "lon": 103.8803449
+  },
+  {
+    "osm_id": "way/776944130",
+    "name": "Caltex",
+    "brand_tag": "Caltex",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.2844688,
+    "lon": 103.8150356
+  },
+  {
+    "osm_id": "way/838044767",
+    "name": "",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3234955,
+    "lon": 103.7217586
+  },
+  {
+    "osm_id": "way/965808401",
+    "name": "Shell",
+    "brand_tag": "Shell",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.298168,
+    "lon": 103.9021147
+  },
+  {
+    "osm_id": "way/979713521",
+    "name": "Sinopec Woodlands",
+    "brand_tag": "Sinopec Singapore",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4326644,
+    "lon": 103.7987633
+  },
+  {
+    "osm_id": "way/1104721237",
+    "name": "Sinopec",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.4203597,
+    "lon": 103.8480465
+  },
+  {
+    "osm_id": "way/1139293978",
+    "name": "Esso Bukit Timah",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.3300022,
+    "lon": 103.7990097
+  },
+  {
+    "osm_id": "way/1140702127",
+    "name": "SPC Adam Road",
+    "brand_tag": "SPC",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.3282449,
+    "lon": 103.8136976
+  },
+  {
+    "osm_id": "way/1149024055",
+    "name": "",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.2948168,
+    "lon": 103.8163699
+  },
+  {
+    "osm_id": "way/1227279389",
+    "name": "Refuelling Station",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.270085,
+    "lon": 103.7932095
+  },
+  {
+    "osm_id": "way/1262643077",
+    "name": "SPC Tanjong Katong",
+    "brand_tag": "",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.3082803,
+    "lon": 103.8945969
+  },
+  {
+    "osm_id": "way/1263513103",
+    "name": "Caltex Tanjong Katong",
+    "brand_tag": "Caltex",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.307488,
+    "lon": 103.8956819
+  },
+  {
+    "osm_id": "way/1263652994",
+    "name": "Esso Choa Chu Kang Way",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.3775285,
+    "lon": 103.7501792
+  },
+  {
+    "osm_id": "way/1381325479",
+    "name": "SPC Admiralty Road",
+    "brand_tag": "SPC",
+    "operator_tag": "Singapore Petroleum Company",
+    "cuisine": "",
+    "lat": 1.4425104,
+    "lon": 103.7762855
+  },
+  {
+    "osm_id": "way/1387593908",
+    "name": "",
+    "brand_tag": "",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3757802,
+    "lon": 103.7131412
+  },
+  {
+    "osm_id": "way/1417729715",
+    "name": "SPC Sengkang",
+    "brand_tag": "SPC",
+    "operator_tag": "SPC",
+    "cuisine": "",
+    "lat": 1.3911598,
+    "lon": 103.8989232
+  },
+  {
+    "osm_id": "way/1441886541",
+    "name": "Esso",
+    "brand_tag": "Esso",
+    "operator_tag": "",
+    "cuisine": "",
+    "lat": 1.3749635,
+    "lon": 103.9406019
+  },
+  {
+    "osm_id": "way/1468013875",
+    "name": "Esso Kovan",
+    "brand_tag": "Esso",
+    "operator_tag": "Esso",
+    "cuisine": "",
+    "lat": 1.3588491,
+    "lon": 103.8840677
+  }
+]
