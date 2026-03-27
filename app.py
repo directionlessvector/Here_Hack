@@ -1,12 +1,14 @@
 """
 Flask Web Application – HERE GeoVerify
 Fuel Station + Restaurant/Cafe Validation Engine
+With Visual Validation Layer (Mapillary + YOLOv8 + OCR)
 Themed for HERE Technologies
 """
 
 from flask import Flask, request, jsonify, render_template_string
 from flask_cors import CORS
 from validate_station import validate, suggest
+from visual_validator import validate_poi_visual
 
 app = Flask(__name__)
 CORS(app)
@@ -321,6 +323,7 @@ HTML_TEMPLATE = r"""
                 <span class="badge"><span class="dot"></span>Overture</span>
                 <span class="badge"><span class="dot"></span>Spatial</span>
                 <span class="badge"><span class="dot"></span>Brand</span>
+                <span class="badge" style="background:rgba(62,139,255,0.12);color:var(--here-blue);border-color:rgba(62,139,255,0.15)"><span class="dot" style="background:var(--here-blue)"></span>Visual AI</span>
             </div>
         </header>
 
@@ -486,10 +489,13 @@ HTML_TEMPLATE = r"""
         const isFuel = data.input.place_type === 'fuel_station';
         const typeLabel = isFuel ? '⛽ Fuel Station' : '🍽️ Restaurant';
 
-        // Weights
+        // Weights (with visual layer)
         const w = isFuel
-            ? {osm:0.30, acra:0.25, overture:0.20, spatial:0.15, brand:0.10}
-            : {osm:0.35, acra:0.30, overture:0.25, brand:0.10};
+            ? {osm:0.25, acra:0.20, overture:0.17, spatial:0.13, brand:0.10, visual:0.15}
+            : {osm:0.28, acra:0.25, overture:0.20, brand:0.10, visual:0.17};
+
+        const visualConf = data.visual?.confidence || 0;
+        const visualScore01 = visualConf / 100;
 
         let breakdownHtml = '';
         breakdownHtml += bi('OSM', data.osm.score, w.osm);
@@ -497,6 +503,7 @@ HTML_TEMPLATE = r"""
         breakdownHtml += bi('Overture', data.overture.score, w.overture);
         if (isFuel) breakdownHtml += bi('Spatial', data.spatial?.road_proximity_score || 0, w.spatial);
         breakdownHtml += bi('Brand', data.brand.consistency_score, w.brand);
+        breakdownHtml += bi('Visual', visualScore01, w.visual);
 
         function bi(label, score, weight) {
             return `<div class="breakdown-item">
@@ -513,7 +520,7 @@ HTML_TEMPLATE = r"""
             <div class="station-name">${typeLabel} · ${data.input.name} ${data.input.lat ? `(${data.input.lat}, ${data.input.lon})` : '(no coords)'}</div>
         </div>
 
-        <div class="breakdown-strip ${isFuel?'cols-5':'cols-4'} fade-in" style="animation-delay:.08s">
+        <div class="breakdown-strip ${isFuel?'cols-5':'cols-4'}" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:0.6rem;margin-bottom:1.5rem;animation:fadeIn 0.4s ease forwards;animation-delay:.08s;opacity:0">
             ${breakdownHtml}
         </div>
 
@@ -604,6 +611,48 @@ HTML_TEMPLATE = r"""
         </div>
         ` : ''}
 
+        <!-- Visual Validation Panel -->
+        ${data.visual ? `
+        <div class="detail-card fade-in" style="animation-delay:.32s; margin-bottom:0.85rem; border-color:rgba(62,139,255,0.2); grid-column:1/-1;">
+            <div class="dc-header">
+                <span class="dc-title">🔍 Visual Validation (Mapillary + YOLOv8 + OCR)</span>
+                <span class="dc-badge ${data.visual.status==='open'?'match':data.visual.status==='closed'||data.visual.status==='relocated'?'closed':data.visual.status==='under_construction'?'unknown':'no-match'}">
+                    ${data.visual.status?.toUpperCase() || 'UNCERTAIN'}
+                </span>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;margin-bottom:1rem">
+                <div style="text-align:center;padding:0.75rem;background:rgba(62,139,255,0.06);border-radius:10px">
+                    <div style="font-size:0.65rem;text-transform:uppercase;color:var(--text-muted);font-weight:600;letter-spacing:0.06em">Confidence</div>
+                    <div style="font-size:1.6rem;font-weight:800;font-family:'JetBrains Mono',monospace" class="${scoreColor(data.visual.confidence||0,100)}">${data.visual.confidence || 0}</div>
+                </div>
+                <div style="text-align:center;padding:0.75rem;background:rgba(62,139,255,0.06);border-radius:10px">
+                    <div style="font-size:0.65rem;text-transform:uppercase;color:var(--text-muted);font-weight:600;letter-spacing:0.06em">Evidence Score</div>
+                    <div style="font-size:1.6rem;font-weight:800;font-family:'JetBrains Mono',monospace" class="${scoreColor(data.visual.visual_evidence_score||0,100)}">${data.visual.visual_evidence_score || 0}</div>
+                </div>
+                <div style="text-align:center;padding:0.75rem;background:rgba(62,139,255,0.06);border-radius:10px">
+                    <div style="font-size:0.65rem;text-transform:uppercase;color:var(--text-muted);font-weight:600;letter-spacing:0.06em">Decision Hint</div>
+                    <div style="font-size:0.85rem;font-weight:700;margin-top:0.3rem;color:${
+                        data.visual.final_decision_hint==='strong_positive'?'var(--green)':
+                        data.visual.final_decision_hint==='weak_positive'?'var(--blue)':
+                        data.visual.final_decision_hint==='strong_negative'?'var(--red)':
+                        data.visual.final_decision_hint==='weak_negative'?'var(--orange)':'var(--text-secondary)'
+                    }">${(data.visual.final_decision_hint||'neutral').replace(/_/g,' ').toUpperCase()}</div>
+                </div>
+            </div>
+            <div class="dc-rows">
+                <div class="dc-row"><span class="dc-key">Images Analysed</span><span class="dc-val">${data.visual.images_analysed || 0}</span></div>
+                <div class="dc-row"><span class="dc-key">Activity Detected</span><span class="dc-val">${data.visual.signals?.activity ? '✅ Yes' : '❌ No'}</span></div>
+                <div class="dc-row"><span class="dc-key">Open Sign</span><span class="dc-val">${data.visual.signals?.open_sign ? '✅ Yes' : '❌ No'}</span></div>
+                <div class="dc-row"><span class="dc-key">Closed Sign</span><span class="dc-val">${data.visual.signals?.closed_sign ? '✅ Yes' : '❌ No'}</span></div>
+                <div class="dc-row"><span class="dc-key">Construction</span><span class="dc-val">${data.visual.signals?.construction ? '⚠️ Yes' : '❌ No'}</span></div>
+                <div class="dc-row"><span class="dc-key">Relocation</span><span class="dc-val">${data.visual.signals?.relocation ? '⚠️ Yes' : '❌ No'}</span></div>
+                <div class="dc-row"><span class="dc-key">Detected Objects</span><span class="dc-val" style="max-width:70%">${(data.visual.signals?.detected_objects||[]).join(', ') || '—'}</span></div>
+                <div class="dc-row"><span class="dc-key">OCR Text</span><span class="dc-val" style="max-width:70%;white-space:normal;word-break:break-word">${data.visual.signals?.ocr_text || '—'}</span></div>
+                ${data.visual.reason ? `<div class="dc-row"><span class="dc-key">Note</span><span class="dc-val" style="color:var(--yellow)">${data.visual.reason}</span></div>` : ''}
+            </div>
+        </div>
+        ` : ''}
+
         <!-- JSON -->
         <div class="json-panel fade-in" style="animation-delay:.3s">
             <div class="json-header" onclick="toggleJson(this)">
@@ -634,7 +683,7 @@ HTML_TEMPLATE = r"""
         document.getElementById('results').classList.remove('active');
         document.getElementById('loader').classList.add('active');
         document.getElementById('loaderText').textContent =
-            `Validating ${currentType === 'fuel_station' ? 'fuel station' : 'restaurant'} across ${currentType === 'fuel_station' ? '4' : '3'} data sources...`;
+            `Validating ${currentType === 'fuel_station' ? 'fuel station' : 'restaurant'} across ${currentType === 'fuel_station' ? '5' : '4'} data sources + visual AI...`;
 
         try {
             const body = { name, place_type: currentType };
@@ -693,11 +742,14 @@ def api_validate():
     if lon is not None:
         lon = float(lon)
 
+    # Allow disabling visual validation via query param or payload
+    run_visual = payload.get("run_visual", True)
+
     place_type = payload.get("place_type", "fuel_station")
     if place_type not in ("fuel_station", "restaurant"):
         place_type = "fuel_station"
 
-    result = validate(name, lat, lon, place_type)
+    result = validate(name, lat, lon, place_type, run_visual=run_visual)
     return jsonify(result)
 
 
@@ -711,6 +763,40 @@ def api_suggest():
     return jsonify(results)
 
 
+@app.route("/api/visual-validate", methods=["POST"])
+def api_visual_validate():
+    """Standalone visual validation endpoint.
+    Accepts the full visual validation input payload directly."""
+    payload = request.get_json(silent=True) or {}
+
+    lat = payload.get("latitude")
+    lon = payload.get("longitude")
+    category = payload.get("category", "fuel_station")
+    poi_name = payload.get("poi_name", "")
+
+    if lat is None or lon is None:
+        return jsonify({"error": "latitude and longitude are required"}), 400
+
+    if category not in ("fuel_station", "restaurant"):
+        category = "fuel_station"
+
+    upstream = payload.get("upstream_signals", {
+        "acra_exists": False,
+        "osm_exists": False,
+        "overture_exists": False,
+        "brand_match": False,
+    })
+
+    result = validate_poi_visual({
+        "latitude": float(lat),
+        "longitude": float(lon),
+        "category": category,
+        "poi_name": poi_name,
+        "upstream_signals": upstream,
+    })
+    return jsonify(result)
+
+
 if __name__ == "__main__":
     print("Starting HERE GeoVerify server ...")
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True, use_reloader=False)

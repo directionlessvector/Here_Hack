@@ -3,3 +3,8 @@ flask-cors
 psycopg2-binary
 rapidfuzz
 requests
+Pillow
+python-dotenv
+ultralytics
+easyocr
+numpy
