@@ -797,6 +797,38 @@ def api_visual_validate():
     return jsonify(result)
 
 
+@app.route("/api/data-status")
+def api_data_status():
+    """Return freshness status for all cached data sources."""
+    from refresh_data import get_status
+    return jsonify(get_status())
+
+
+@app.route("/api/refresh-data", methods=["POST"])
+def api_refresh_data():
+    """Trigger a data refresh.  Body (JSON):
+      { "source": "all"|"fuel"|"restaurants"|"roads", "force": true|false }
+    Returns per-source refresh results.
+    """
+    from refresh_data import refresh_fuel, refresh_restaurants, refresh_roads, refresh_all
+    payload = request.get_json(silent=True) or {}
+    force = bool(payload.get("force", False))
+    source = payload.get("source", "all")
+
+    if source == "all":
+        results = refresh_all(force=force)
+    elif source == "fuel":
+        results = [refresh_fuel(force=force)]
+    elif source == "restaurants":
+        results = [refresh_restaurants(force=force)]
+    elif source == "roads":
+        results = [refresh_roads(force=force)]
+    else:
+        return jsonify({"error": "invalid source — use all, fuel, restaurants, or roads"}), 400
+
+    return jsonify({"results": results, "force": force, "source": source})
+
+
 if __name__ == "__main__":
     print("Starting HERE GeoVerify server ...")
     app.run(host="0.0.0.0", port=5000, debug=True, use_reloader=False)
