@@ -2,8 +2,11 @@
 Geospatial Place Validation Engine
 ===================================
 Validates fuel stations AND restaurants/cafes across multiple structured
-data sources (OSM, ACRA, Overture Maps, spatial road proximity) and
-assigns a composite confidence score (0-100).
+data sources (OSM, ACRA, Overture Maps, spatial road proximity, visual
+validation via Mapillary + YOLOv8 + OCR) and assigns a composite
+confidence score (0-100).
+
+Pipeline:  ACRA → OSM → Overture → Spatial → Brand → Visual Validation
 """
 
 import os
@@ -69,9 +72,10 @@ FUEL_KEYWORDS = ("service station", "petrol station", "fuel station", "filling s
 RESTAURANT_CATEGORIES = {"restaurant", "cafe", "fast_food"}
 
 # ── Scoring weights ─────────────────────────────────────────────────────
-FUEL_WEIGHTS = {"osm": 0.30, "acra": 0.25, "overture": 0.20, "spatial": 0.15, "brand": 0.10}
+# With visual validation layer integrated
+FUEL_WEIGHTS = {"osm": 0.25, "acra": 0.20, "overture": 0.17, "spatial": 0.13, "brand": 0.10, "visual": 0.15}
 # Restaurants skip spatial → redistribute weight
-RESTAURANT_WEIGHTS = {"osm": 0.35, "acra": 0.30, "overture": 0.25, "brand": 0.10}
+RESTAURANT_WEIGHTS = {"osm": 0.28, "acra": 0.25, "overture": 0.20, "brand": 0.10, "visual": 0.17}
 
 CACHE_MAX_AGE = 7 * 24 * 60 * 60
 
@@ -692,10 +696,11 @@ def _ensure(place_type):
 # Public API
 # ---------------------------------------------------------------------------
 
-def validate(name: str, lat=None, lon=None, place_type="fuel_station") -> dict:
+def validate(name: str, lat=None, lon=None, place_type="fuel_station", run_visual=True) -> dict:
     """
     Validate a place by name + optional coords.
     place_type: 'fuel_station' or 'restaurant'
+    run_visual: whether to run the visual validation layer (default True)
     """
     _ensure(place_type)
     c = _cache[place_type]
@@ -732,9 +737,44 @@ def validate(name: str, lat=None, lon=None, place_type="fuel_station") -> dict:
         overture_score *= coord_penalty
         spatial_score *= coord_penalty
 
-    # Step 6 & 7
+    # ── Step 6 – Visual Validation (Mapillary + YOLO + OCR) ──
+    visual_score = 0.0
+    visual_result = None
+    if run_visual and lat is not None and lon is not None:
+        try:
+            from visual_validator import validate_poi_visual
+            upstream_signals = {
+                "acra_exists": acra_match,
+                "osm_exists": osm_match,
+                "overture_exists": overture_match,
+                "brand_match": brand_score >= 0.5,
+            }
+            visual_payload = {
+                "latitude": lat,
+                "longitude": lon,
+                "category": place_type,
+                "poi_name": name,
+                "upstream_signals": upstream_signals,
+            }
+            print(f"[engine] Running visual validation for {name}...")
+            visual_result = validate_poi_visual(visual_payload)
+
+            # Convert visual confidence (0-100) to a 0-1 score for weighted fusion
+            visual_score = visual_result.get("confidence", 0) / 100.0
+            print(f"[engine] Visual validation complete: confidence={visual_result.get('confidence')}, "
+                  f"status={visual_result.get('status')}, hint={visual_result.get('final_decision_hint')}")
+        except Exception as e:
+            print(f"[engine] Visual validation failed (non-fatal): {e}")
+            visual_score = 0.0
+            visual_result = {"status": "uncertain", "confidence": 0, "reason": str(e)}
+    elif not run_visual:
+        print("[engine] Visual validation skipped (disabled)")
+    else:
+        print("[engine] Visual validation skipped (no coordinates)")
+
+    # Step 7 – Weighted Score & Decision
     score_map = {"osm": osm_score, "acra": acra_score, "overture": overture_score,
-                 "spatial": spatial_score, "brand": brand_score}
+                 "spatial": spatial_score, "brand": brand_score, "visual": visual_score}
     final_score, decision = compute_final(score_map, weights)
 
     result = {
@@ -743,6 +783,7 @@ def validate(name: str, lat=None, lon=None, place_type="fuel_station") -> dict:
         "acra":  {"match": acra_match, "status": acra_status, "score": acra_score, "details": acra_details},
         "overture": {"match": overture_match, "score": overture_score, "details": overture_details},
         "brand": {"consistency_score": brand_score, "details": brand_details},
+        "visual": visual_result,
         "final": {"score": final_score, "decision": decision},
     }
 
